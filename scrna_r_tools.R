@@ -15,8 +15,13 @@ extract_gene_locs = function(scrna_df, features_list){
   select(GeneID, Name) %>%
   unique()
 
-  extracted_gene_locs = extracted_gene_locs[-which(duplicated(extracted_gene_locs$GeneID)),]
-  return(extracted_gene_locs)
+  dup_check = duplicated(extracted_gene_locs$GeneID) %>% sum()
+  if(dup_check >= 1){
+    extracted_gene_locs = extracted_gene_locs[-which(duplicated(extracted_gene_locs$GeneID)),]
+    return(extracted_gene_locs)
+    } else {
+      return(extracted_gene_locs)
+    }
 }
 intramutate = function(df, orig_search_list, replacement_list){
   
@@ -55,15 +60,15 @@ lab_multi_DP = function(scrna_df_list, title_list, lab_DP_feature_df, pdf_title,
   
   if(interactive == F){
     pdf(paste0(pdf_title, ".pdf"), onefile=T, width=16, height=9)
-    map(DP_list, print)
+    map(DP_list, print) %>% invisible()
     dev.off()
     return(DP_list)  
   
   } else {
-    DP_list_interactive = map(DP_list, ggplotly)
+    dir.create(pdf_title)
+    DP_list_interactive = map(DP_list, ggplotly) %>% invisible()
     map2(.x=DP_list_interactive, 
          .y = title_list, 
-         .f = function(x,y)(htmlwidgets::saveWidget(as_widget(x), paste0(y,".html")))
-         )
+         .f = function(x,y)(htmlwidgets::saveWidget(as_widget(x), paste0(pdf_title,"/",y,".html"),selfcontained=TRUE))) %>% invisible()
   }
 }
