@@ -11,8 +11,11 @@ library(tidyr)
 extract_gene_locs = function(scrna_df, features_list){
   
   feature_loc_list = rownames(scrna_df)[rownames(scrna_df) %in% features_list$GeneID]
-  extracted_gene_locs = features_list[which(features_list$GeneID %in% feature_loc_list),] %>% unique()
+  extracted_gene_locs = features_list[which(features_list$GeneID %in% feature_loc_list),] %>% 
+  select(GeneID, Name) %>%
+  unique()
 
+  extracted_gene_locs = extracted_gene_locs[-which(duplicated(extracted_gene_locs$GeneID)),]
   return(extracted_gene_locs)
 }
 intramutate = function(df, orig_search_list, replacement_list){

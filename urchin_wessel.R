@@ -32,7 +32,7 @@ dev_stage_names_list = c("8 Cell",
                     "Mid Blastula",
                     "Early Gastrula",
                     "Late Gastrula")
-urchin_1@meta.data$orig.ident = intramutate(urchin_1@meta.data$orig.ident, unique_orig_idents, unique_orig_idents_replacements)
+urchin_1@meta.data$orig.ident = intramutate(urchin_1@meta.data$orig.ident, dev_stage_names_abbreviated_list, dev_stage_names_list)
 
 cell8 = subset(urchin_1, orig.ident  == "8 Cell")
 cell64 = subset(urchin_1, orig.ident == "64 Cell")
