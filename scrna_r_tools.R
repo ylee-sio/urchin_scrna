@@ -35,6 +35,16 @@ intramutate = function(df, orig_search_list, replacement_list){
   
   return(df)
 }
+dev_stage_cell_pop_stats = function(dev_stage_scrna){
+
+  dev_stage_available_idents = levels(Idents(dev_stage_scrna))
+  dev_stage_cell_ident_num_cell = map(.x = dev_stage_available_idents, .f = function(x)(length(Cells(subset(dev_stage_scrna, idents = x))))) %>% unlist()
+  dev_stage_cell_ident_percentage = map(.x = dev_stage_available_idents, .f = function(x)(length(Cells(subset(dev_stage_scrna, idents = x)))/length(Cells(dev_stage_scrna)))) %>% unlist()
+
+  stats_df = tibble(dev_stage_available_idents, dev_stage_cell_ident_num_cell, dev_stage_cell_ident_percentage)
+
+  return(stats_df)
+}
 lab_FP = function(scrna_df, feature_df){
   
   plot_list = FeaturePlot(scrna_df, features = feature_df$GeneID)
@@ -72,3 +82,4 @@ lab_multi_DP = function(scrna_df_list, title_list, lab_DP_feature_df, pdf_title,
          .f = function(x,y)(htmlwidgets::saveWidget(as_widget(x), paste0(pdf_title,"/",y,".html"),selfcontained=TRUE))) %>% invisible()
   }
 }
+
