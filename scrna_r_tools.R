@@ -8,7 +8,7 @@ library(cowplot)
 library(grid)
 library(tidyr)
 
-extract_gene_locs = function(scrna_df, features_list){
+extract_gene_locs = function(features_list, scrna_df){
   
   feature_loc_list = rownames(scrna_df)[rownames(scrna_df) %in% features_list$GeneID]
   extracted_gene_locs = features_list[which(features_list$GeneID %in% feature_loc_list),] %>% 
