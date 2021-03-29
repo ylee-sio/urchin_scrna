@@ -1,4 +1,5 @@
 setwd("~/projects")
+library(parallel)
 library(tidyverse)
 library(gtools)
 
@@ -10,7 +11,5 @@ setwd(project_selection)
 print(paste0("Set current working directory to ", project_selection))
 list.files()
 selection = as.numeric(ask("Source script: "))
-source(list.files()[selection])
-
-t.out = "temp_outputs"
+system.time(source(list.files()[selection]))
 
