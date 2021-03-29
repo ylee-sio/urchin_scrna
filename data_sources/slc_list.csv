@@ -1,0 +1,49 @@
+WHL,SPU,GeneID,Name,Annotation
+WHL22.229694.1,SPU_014136,LOC592830,Sp-Slc10a2_8,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)"
+WHL22.348669.0,SPU_015795,LOC575621,Sp-Slc10a2_5,"Solute carrier family 10 (sodium/bile acid cotransporter family), member 2"
+WHL22.609344.1,SPU_022203,LOC115919220,Sp-Slc10a2L_3,"solute carrier family 10, member 2-like-3"
+WHL22.229717.0,SPU_014135,na,Sp-Slc10a2_7,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)"
+WHL22.276158.0,SPU_017175,LOC594804,Sp-Slc10a2_9,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)"
+WHL22.341225.1,SPU_022363,LOC590463,Sp-Slc10a2L_4,"solute carrier family 10, member 2-like-4"
+WHL22.341225.0,SPU_022363,LOC590463,Sp-Slc10a2L_4,"solute carrier family 10, member 2-like-4"
+WHL22.598988.1,SPU_003103,LOC100891194,Sp-Slc10a1,Sodium/bile acid cotransporter (Na(+)/bile acid cotransporter) (Na(+)/taurocholate transport protein) (Sodium/taurocholate cotransporting polypeptide) (Solute carrier family 10 member 1)
+WHL22.621768.1,SPU_009871,LOC577941,Sp-Slc10a2_6,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2) "
+WHL22.722901.0,SPU_006486,LOC589816,Sp-Slc10a2_1,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)"
+WHL22.621768.0,SPU_009871,LOC577941,Sp-Slc10a2_6,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2) "
+WHL22.276155.0,SPU_026452,LOC580301,Sp-Slc10a2_12,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2) "
+WHL22.738147.1,SPU_025625,LOC581539,Sp-Slc10a7,"solute carrier family 10 (sodium/bile acid cotransporter family), member 7"
+WHL22.186198.0,SPU_025781,LOC579904,Sp-Slc10a2L,"solute carrier family 10, member 2-like"
+WHL22.738190.0,SPU_025625,LOC581539,Sp-Slc10a7,"solute carrier family 10 (sodium/bile acid cotransporter family), member 7"
+WHL22.762743.0,SPU_005698,LOC591987,Sp-Slc10a2,"Solute carrier family 10 (sodium/bile acid cotransporter family), member 2"
+WHL22.229694.0,SPU_014136,LOC592830,Sp-Slc10a2_8,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)"
+WHL22.759723.1,SPU_007249,LOC591987,Sp-Slc10a2_2,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)"
+WHL22.299508.0,SPU_012589,LOC581693,Sp-Slc10a2_3,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)"
+WHL22.186176.2,SPU_025781,LOC579904,Sp-Slc10a2L,"solute carrier family 10, member 2-like"
+WHL22.186176.1,SPU_025781,LOC579904,Sp-Slc10a2L,"solute carrier family 10, member 2-like"
+WHL22.759723.0,SPU_007249,LOC591987,Sp-Slc10a2_2,"Ileal sodium/bile acid cotransporter (Ileal Na(+)/bile acid cotransporter) (Na(+) dependent ileal bile acid transporter) (Ileal sodium-dependent bile acid transporter) (ISBT) (Sodium/taurocholate cotransporting polypeptide, ileal) (Solute carrier family 10 member 2)"
+WHL22.762743.0,SPU_005698,LOC591987,Sp-Slc10a2,"Solute carrier family 10 (sodium/bile acid cotransporter family), member 2"
+WHL22.163365.0,SPU_009430,LOC587955,Sp-Slc22a3_8,organic cation transporter 3 (Solute carrier family 22 member 3)
+WHL22.444466.0,SPU_012704,LOC576763,Sp-Slc22a18,"solute carrier family 22 (organic cation transporter), member 18"
+WHL22.456041.3,SPU_010371,LOC764065,Sp-Slc22a3_3,Organic cation transporter 3 (Solute carrier family 22 member 3)
+WHL22.707733.1,SPU_012663,LOC583736,Sp-Slc22a3_4,Organic cation transporter 3 (Solute carrier family 22 member 3)
+WHL22.199396.0,SPU_019637,LOC100892825,Sp-Slc22a15,"solute carrier family 22 (organic cation transporter), member 15 "
+WHL22.612478.0,SPU_017538,LOC756287,Sp-Slc22a9,Organic cation/carnitine transporter 3 (Solute carrier family 22  member 9)
+WHL22.44310.0,SPU_027502,LOC588868,Sp-Slc22a13_1,organic cation transporter like 3 
+WHL22.612466.0,SPU_017538,LOC756287,Sp-Slc22a9,Organic cation/carnitine transporter 3 (Solute carrier family 22  member 9)
+WHL22.738485.1,SPU_006537,LOC586938,Sp-Slc22a3_9,"solute carrier family 22 (extraneuronal monoamine transporter), member 3-9; organic cation transporter 3-9"
+WHL22.97044.0,SPU_007570,LOC100892016,Sp-Slc22a5L,"solute carrier family 22 (organic cation transporter), member 5-like"
+WHL22.120874.1,SPU_005195,LOC105439091,Sp-Slc22a3,Organic cation transporter 3 (Extraneuronal monoamine transporter) (EMT) (Solute carrier family 22 member 3)
+WHL22.97046.0,SPU_007570,LOC100892016,Sp-Slc22a5L,"solute carrier family 22 (organic cation transporter), member 5-like"
+WHL22.497572.0,SPU_017736,LOC591348,Sp-Slc22a13,organic cation transporter like 3 
+WHL22.120874.3,SPU_005195,LOC105439091,Sp-Slc22a3,Organic cation transporter 3 (Extraneuronal monoamine transporter) (EMT) (Solute carrier family 22 member 3)
+WHL22.497557.0,SPU_027463,LOC591325,Sp-Slc22a13L,"solute carrier family 22 (organic anion transporter), member 13-like; organic-cation transporter like 3"
+WHL22.612895.0,SPU_009371,LOC582118,Sp-Slc22a5,"solute carrier family 22 (organic cation transporter), member 5"
+WHL22.120878.0,SPU_005196,LOC100890072,Sp-Slc22a3_1,Organic cation transporter 3 (Extraneuronal monoamine transporter) (EMT) (Solute carrier family 22 member 3)
+WHL22.612895.1,SPU_009371,LOC582118,Sp-Slc22a5,"solute carrier family 22 (organic cation transporter), member 5"
+WHL22.497563.0,SPU_017736,LOC591348,Sp-Slc22a13,organic cation transporter like 3 
+WHL22.414995.0,SPU_005806,LOC115925503,Sp-Slco3a1,Solute carrier organic anion transporter family member 3A1 (Solute carrier family 21 member 11) (Sodium-independent organic anion transporter D) (Organic anion transporting polypeptide D) (OATP-D) (Organic anion transporter polypeptide related protein 3) (OATP-RP3) (OATPRP3) (PGE1 transporter)
+WHL22.133999.0,SPU_011784,LOC583692,Sp-Slco2a1,Solute carrier organic anion transporter family member 2A1 (Solute carrier family 21 member 2) (Prostaglandin transporter) (PGT)
+WHL22.501657.0,SPU_014024,LOC100891092,Sp-Slco4a1_5,"Solute carrier organic anion transporter family, member 4a1"
+WHL22.501618.0,SPU_014024,LOC100891092,Sp-Slco4a1_5,"Solute carrier organic anion transporter family, member 4a1"
+WHL22.501577.2,SPU_023364,LOC582078,Sp-Slco4a1_15,organic anion transporter
+WHL22.507544.1,SPU_000820,LOC763758,Sp-Slcoa4a1,"Solute carrier organic anion transporter family, member 4a1"

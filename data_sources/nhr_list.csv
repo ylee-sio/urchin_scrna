@@ -1,0 +1,28 @@
+WHL,SPU,GeneID,Name,Annotation
+WHL22.256860.0,SPU_012296,LOC575350,Sp-Ahrl,"aryl hydrocarbon receptor-like, spineless(ss)-like; mediator of RNA polymerase II transcription subunit 15a"
+WHL22.676940,"SPU_005022, SPU_013788",LOC115928006,"Ahr, Ahr_1","aryl hydrocarbon receptor, spineless (ss) homolog, Sp-Ahr_1; aryl hydrocarbon receptor repressor-like"
+WHL22.545028.0,SPU_006060,LOC589503,Sp-Hif1an,"hypoxia-inducible factor 1, alpha subunit inhibitor"
+WHL22.63991.1,SPU_026758,LOC100891430,Sp-Hif2a,"hypoxia inducible factor 2 alpha, endothelial PAS domain protein 1 (EPAS-1)"
+"WHL22.622033, WHL22.40034 ","SPU_011348, SPU_027598",LOC574588,nr1h3,"nr1h3; Sp-Fxr; liver X receptor-like , Ecr/Fxr; PEAK MID GAST. Echinobase GeneId is not a LOC, so search by nr1h3"
+WHL22.470958 ,SPU_011036,LOC575141,Nr1 ,"ndor1; NADPH dependent diflavin oxidoreductase 1, Sp-Ndor1 , Sp-Nr1"
+WHL22.91739 ,SPU_024355,LOC756919,Nr1_1 ,NADPH-dependent diflavin oxidoreductase 1; Sp-Nr1_1 
+"WHL22.41005 , WHL22.41011 ",SPU_017404,LOC581266,Nr1h6 ,"nr1h4l; nuclear receptor subfamily 1 group H member 4-like; Sp-Nr1h6 , Sp-Nr1h6a , nuclear receptor subfamily 1 group H-like A , Sp-nr1ha , Sp-NR1L1; bile acid receptor"
+WHL22.771234 ,SPU_015456,NA,Nr1h6b ,Not found in new Echinobase
+WHL22.609334 ,SPU_004526,LOC577786,Nr1h6c ,"Sp-Nr1h6c, nuclear receptor 1h6c "
+WHL22.595573 ,SPU_017491,LOC100890792 ,Nr1m1 ,"Hormone receptor 3; NR1-like , nuclear receptor subfamily 1 group M member 1 , Sp-Nr1m1 "
+WHL22.383507 ,SPU_011576,LOC578618,Nr1m2 ,"hr3l; hormone receptor 3-like, NR1-like , Sp-Nr1m2, nuclear receptor subfamily 1 group M member 2 , vVERY STRONG GASTRULATION SIGNAL"
+WHL22.21036 ,SPU_013178,LOC592902,Nr1m3 ,"rora; RAR related orphan receptor A, NR1-like , Sp-Nr1m3, nuclear receptor subfamily 1 group M member 3 , VERY STRONG 72 HR SIGNAL"
+WHL22.175730 ,SPU_018845,LOC576385,Nr1m4 ,"nr1d1l2; nuclear receptor subfamily 1 group D member 1-like 2, Sp-Nr1m4, nuclear receptor subfamily 1 group M member 4 , NR1-like "
+WHL22.581390 ,SPU_028255,LOC756187,Nr1x ,"Sp-Nr1x , NR1-like , nuclear receptor subfamily 1-like , Sp-Nr1AB , nuclear receptor subfamily 1"
+WHL22.581390 ,SPU_028255,LOC115917889,LOC115917889,Sp-Nr1x ; uncharacterized LOC115917889
+WHL22.211956,"SPU_018861, SPU_025239 ",LOC584535,"Thr, Thrb ","thrb; thyroid hormone receptor beta, NR1A , Sp-Thr , Sp-Thrb , thyroid hormone receptor , Sp-Thr_1 , LOC584535 , C-ERBA-2; VERY BIMODAL EXP AT 30, 72 PEAKS"
+WHL22.46852,SPU_019332 ,LOC576339,Ppar1 ,"peroxisome proliferator activated receptor alpha 1, NR1C1 , peroxisome proliferator activated receptor-like 1 , NR1C-like "
+WHL22.609698,SPU_001262,LOC577866,Birc6," birc6, Sp-Birc6_1 , Sp-Birc6 , Bruce, baculoviral IAP repeat-containing 6"
+WHL22.609698,SPU_030140 ,LOC577801,Hifa,"hypoxia-inducible factor 1-alpha; hypoxia inducible factor 1 alpha subunit , MOP1 "
+"WHL22.91717, WHL22.91797",SPU_004723 ,LOC579264,Err ,"estrogen related receptor gamma; NR3B2 , Err2 , Esrr , estrogen-related receptor-like , Err2-like , NR3B"
+WHL22.35553,SPU_021192 ,LOC574894,Hnf4 ,"hnf4a; hepatocyte nuclear factor 4 alpha, NR2A , hepatocyte nuclear factor 4 , STRONG LATE GAST PEAK"
+WHL22.44643,SPU_021289 ,LOC579208,Ppar2 ,"peroxisome proliferator activated receptor alpha 2; NR1C-like , Sp-Ppar2, NR1C , peroxisome proliferator activated receptor-like 2; STRONG LATE GAST PEAK"
+WHL22.595420,SPU_016523 ,LOC574567,Rarb,"rarb; retinoic acid receptor beta, Retinoic acid receptor , Rara/b/g-like, retinoic acid receptor alpha-A; BIMODAL EXP AT 30, 72 PEAKS"
+WHL22.717794,SPU_002891,LOC579018,Rxr,"retinoic X receptor-like; BIMODAL EXP AT 24, 60 PEAKS"
+"WHL22.717794, WHL22.717588 ","SPU_028422, SPU_012645",LOC589099,gfi1/rxr/Z166,"growth factor independent 1 transcriptional repressor; zinc finger protein 166 , Sp-Z166 , NR2B , retinoid x receptor , Sp-Rxr , NR2B1, Rxr, Z166, STRONG POST GASTR EXP"
+"WHL22.83266, WHL22.83269","SPU_008196, SPU_010305 ",LOC764728,Hnf1a,"hnf1a; HNF1 homeobox A, Sp-Hnf1aL , hepatocyte nuclear factor 1-like , Sp-Hnf1_1 , Hnf1a/b , hepatocyte nuclear factor 1 , HNF1 homeobox , Sp-Hnf1 , HNF1 homeobox A-like , transcription factor 1-like , PEAK MID GASTRULATION"

@@ -1,0 +1,62 @@
+WHL,SPU,GeneID,Name,Annotation
+WHL22.609056.0,SPU_017582,LOC575820,Sp-Cyp1r2,"Cytochrome P450 Family 2 like, CYP1-related, CYP1"
+WHL22.609152.0,SPU_017582,LOC575820,Sp-Cyp1r2,"Cytochrome P450 Family 2 like, CYP1-related, CYP1"
+WHL22.556898.0,SPU_007409,LOC100893015,Sp-Cyp17L1,Cytochrome P450 Family 17
+WHL22.614000.0,SPU_000279,LOC581339,Sp-Cyp17a1,Cytochrome P450 Family 17
+WHL22.641036.0,SPU_007406,LOC578655,Sp-Cyp1L1,"Cytochrome P450 Family 1, CYP1F1, CYP2 clan"
+WHL22.562864.0,SPU_003038,LOC578140,Sp-Cyp1L7,"Cytochrome P450 Family 1, CYP1"
+WHL22.563597.0,SPU_021185,LOC584123,Sp-Cyp17r3,"Cytochrome P450 Family 17, CYP17, CYP2, CYP1, CYP2 clan"
+WHL22.136888.0,SPU_019883,LOC576122,Sp-Cyp1r3,"Cytochrome P450 Family 2, CYP2, CYP1-related, CYP2 clan"
+WHL22.609152.1,SPU_017582,LOC575820,Sp-Cyp1r2,"Cytochrome P450 Family 2 like, CYP1-related, CYP1"
+WHL22.666262.1,SPU_003231,LOC115919855,Sp-Cyp17r1,"Cytochrome P450 Family 17 related, basal divergence"
+WHL22.158477.0,SPU_014843,LOC578140,Sp-Cyp1r1,"Cytochrome P450 Family 1 related, CYP1, CYP2"
+WHL22.666262.0,SPU_003231,LOC115919855,Sp-Cyp17r1,"Cytochrome P450 Family 17 related, basal divergence"
+WHL22.641069.0,SPU_007404,LOC578598,Sp-Cyp1L6,"Cytochrome P450 Family 1, CYP1F6, CYP2 clan"
+WHL22.748920.0,SPU_025299,LOC575982,Sp-Cyp2L58,"Cytochrome P450 Family 2 like, CYP2"
+WHL22.357752.2,SPU_021087,LOC579395,Sp-Cyp2L47,"Cytochrome P450 Family 2, CYP2, CYP1 related"
+WHL22.610666.1,SPU_020234,LOC581777,Sp-Cyp2L42,"Cytochrome P450 Family 2 like, CYP2"
+WHL22.107174.0,SPU_008632,LOC581885,Sp-Cyp2U,"Cytochrome P450 Family 2U, CYP2U"
+WHL22.457269.0,SPU_008152,LOC575697,Sp-Cyp2L16,"Cytochrome P450 Family 2 like, CYP2"
+WHL22.170303.0,SPU_023808,LOC578821,Sp-Cyp3L7,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.438804.0,SPU_026225,LOC581116,Sp-Cyp3L4,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.341725.0,SPU_015156,LOC588156,Sp-Cyp3L14,"Cytochrome P450, family 3 like, partial"
+WHL22.164664.0,SPU_014573,LOC580620,Sp-Cyp3L1,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.9441.1,SPU_016152,LOC584244,Sp-Cyp3L15,"cytochrome P450, family 3 like, partial"
+WHL22.341713.0,SPU_019464,LOC762372,Sp-Cyp3L10,"Cytochrome P450 Family 3 like, CYP3 like"
+WHL22.684732.0,SPU_005521,LOC586235,Sp-Cyp3L13,"cytochrome P450 Family 3, CYP3 like partial , nifedipine oxidase"
+WHL22.612393.1,SPU_011009,LOC578639,Sp-Cyp3L3,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.325715.2,SPU_016056,LOC586711,Sp-Cyp3L8,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.429044.0,SPU_014874,LOC585966,Sp-Cyp3L9,"Cytochrome P450 3  like, partial (CYP3)"
+WHL22.684742.0,SPU_005521,LOC586235,Sp-Cyp3L13,"cytochrome P450 Family 3, CYP3 like partial , nifedipine oxidase"
+WHL22.96277.2,SPU_014092,LOC586973,Sp-Cyp3L16,"Cytochrome P450 Family 5 like, CYP5, thromboxane synthase, TXSA1"
+WHL22.490450.0,SPU_021251,LOC582382,Sp-Cyp3L11,"Cytochrome P450 Family 3, CYP3, CYP5"
+WHL22.23780.0,SPU_000436,LOC576854,Sp-Cyp3L2,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.96277.1,SPU_014092,LOC586973,Sp-Cyp3L16,"Cytochrome P450 Family 5 like, CYP5, thromboxane synthase, TXSA1"
+WHL22.325715.1,SPU_016056,LOC586711,Sp-Cyp3L8,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.297695.0,SPU_021255,LOC582382,Sp-Cyp3L5,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.9441.2,SPU_016152,LOC584244,Sp-Cyp3L15,"cytochrome P450, family 3 like, partial"
+WHL22.325715.0,SPU_016056,LOC586711,Sp-Cyp3L8,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.96277.0,SPU_014092,LOC586973,Sp-Cyp3L16,"Cytochrome P450 Family 5 like, CYP5, thromboxane synthase, TXSA1"
+WHL22.534656.0,SPU_013102,LOC585008,Sp-Cyp3L6,"Cytochrome P450 Family 3-like, CYP3, CYP3-like, CYP 3 clan"
+WHL22.490450.0,SPU_021251,LOC582382,Sp-Cyp3L11,"Cytochrome P450 Family 3, CYP3, CYP5"
+WHL22.405921.1,SPU_003687,LOC587435,Sp-Cyp46L3,"Cytochrome P450 Family 46 related, CYP46, cholesterol 24-hydroxylase-related"
+WHL22.111947.1,SPU_002380,LOC594737,Sp-Cyp4VL2,"Cytochrome P450 Family 4, Subfamily V (CYP4V)"
+WHL22.65430.1,SPU_002590,LOC591990,Sp-Cyp46L1,Cytochrome P450 Family 46
+WHL22.616.0,SPU_002660,na,Sp-Cyp46L2,Cytochrome P450 Family 46
+WHL22.405872.1,SPU_003687,LOC587435,Sp-Cyp46L3,"Cytochrome P450 Family 46 related, CYP46, cholesterol 24-hydroxylase-related"
+WHL22.65430.0,SPU_002590,LOC591990,Sp-Cyp46L1,Cytochrome P450 Family 46
+WHL22.637.0,SPU_015568,LOC115918059,Sp-Cyp46L9,"Cytochrome p450 46 like, partial  (Cholesterol 24-hydroxylase"
+WHL22.42534.0,SPU_018242,LOC582035,Sp-Cyp46L5,"Cytochrome P450 Family 46, CYP46, cholesterol 24-hydroxylase-like"
+WHL22.297310.0,SPU_025829,LOC577991,Sp-Cyp46L6,"Cytochrome P450 Family 46 like, CYP46, cholesterol 24-hydroxylase-like"
+WHL22.405872.0,SPU_003687,LOC587435,Sp-Cyp46L3,"Cytochrome P450 Family 46 related, CYP46, cholesterol 24-hydroxylase-related"
+WHL22.360664.0,SPU_005931,LOC115928128,Sp-Cyp4L1,"Cytochrome P450 Family 4 like, CYP4"
+WHL22.616.1,SPU_002660,na,Sp-Cyp46L2,Cytochrome P450 Family 46
+WHL22.519741.4,SPU_005439,LOC574627,Sp-Cyp46L4,"Cytochrome P450 Family 46 like, CYP46, cholesterol 24-hydroxylase-like"
+WHL22.207524.0,SPU_005253,LOC577991,Sp-Cyp46L8,"Cytochrome p450 46 like, partial (Cholesterol 24-hydroxylase)"
+WHL22.232765.0,SPU_007335,LOC100891253,Sp-Cyp4L2,Cytochrome P450 Family 4 related
+WHL22.110354.0,SPU_001525,na,Sp-Cyp46L7,Cytochrome p450 46A1-like partial (Cholesterol 24-hydroxylase)
+WHL22.389810.0,SPU_012081,LOC577955,Sp-Cyp4L3,Cytochrome P450 Family 4 like
+WHL22.110354.0,SPU_001525,na,Sp-Cyp46L7,Cytochrome p450 46A1-like partial (Cholesterol 24-hydroxylase)
+WHL22.207524.0,SPU_005253,LOC577991,Sp-Cyp46L8,"Cytochrome p450 46 like, partial (Cholesterol 24-hydroxylase)"
+WHL22.530971.0,SPU_002832,LOC581875,Sp-Cyp4VL3,"Cytochrome P450 Family 4, Subfamily V (CYP4V)"
+WHL22.389831.1,SPU_012080,LOC577955,Sp-Cyp4VL4,Cytochrome P450 Family 4V
