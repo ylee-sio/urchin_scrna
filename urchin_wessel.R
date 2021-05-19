@@ -72,4 +72,9 @@ eg = subset(urchin_2, orig.ident == "Early Gastrula")
 lg = subset(urchin_2, orig.ident == "Late Gastrula")
 
 devolist = c(cell8, cell64, morula, eb, hb, mb, eg, lg)
-print("Loaded the following: urchin_0, urchin_1, cell8, cell64, morula, eb, hb, mb, eg, lg, dev_stage_names, devolist")
+print("Loaded the following: urchin_0, urchin_1, urchin_2, cell8, cell64, morula, eb, hb, mb, eg, lg, dev_stage_names, devolist")
+
+
+skeletal = subset(urchin_2, idents = c("skeleton_hb", "skeleton_64"))
+pigment = subset(urchin_2, idents = c("nsm_pigment_cells"))
+obj.list <- SplitObject(urchin_2, split.by = "seurat_clusters")
