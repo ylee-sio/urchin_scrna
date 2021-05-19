@@ -54,22 +54,31 @@ lab_FP = function(scrna_df, feature_df){
   }
   return(plot_list)
 }
-lab_DP = function(scrna_df, feature_df, plot_title){
-  
+lab_DP = function(scrna_df, feature_df, plot_title, flip_coord){
+
   dp = DotPlot(scrna_df, features = feature_df$GeneID) + 
     scale_x_discrete(breaks=c(feature_df$GeneID),
                      labels=c(feature_df$Name)) +
     RotatedAxis() +
     ggtitle(as.character(plot_title))
+
+    if (flip_coord == T){
+      dp = DotPlot(scrna_df, features = feature_df$GeneID) + 
+      scale_x_discrete(breaks=c(feature_df$GeneID),
+                       labels=c(feature_df$Name)) +
+      RotatedAxis() +
+      ggtitle(as.character(plot_title)) +
+      coord_flip()
+  }
   
   return(dp)
 }
-lab_multi_DP = function(scrna_df_list, title_list, lab_DP_feature_df, pdf_title, interactive = F){
+lab_multi_DP = function(scrna_df_list, title_list, lab_DP_feature_df, pdf_title, interactive = F, flip_coord = T){
   
-  DP_list = map2(.x = scrna_df_list, .y = title_list, .f = function(x,y) (lab_DP(x, lab_DP_feature_df, y)))
+  DP_list = map2(.x = scrna_df_list, .y = title_list, .f = function(x,y) (lab_DP(x, lab_DP_feature_df, y, flip_coord)))
   
   if(interactive == F){
-    pdf(paste0(pdf_title, ".pdf"), onefile=T, width=16, height=9)
+    pdf(paste0(pdf_title, ".pdf"), onefile=T, width=12, height=8)
     map(DP_list, print) %>% invisible()
     dev.off()
     return(DP_list)  
@@ -83,3 +92,79 @@ lab_multi_DP = function(scrna_df_list, title_list, lab_DP_feature_df, pdf_title,
   }
 }
 
+# resub = function(cbmc, neighbors_dim, tsne_dim, cluster_res){
+
+# cbmc <- NormalizeData(cbmc)
+# cbmc <- FindVariableFeatures(cbmc)
+# cbmc <- ScaleData(cbmc)
+# cbmc <- RunPCA(cbmc, verbose = FALSE)
+# cbmc <- FindNeighbors(cbmc, dims = neighbors_dim)
+# cbmc <- FindClusters(cbmc, resolution = as.numeric(cluster_res), verbose = FALSE)
+# cbmc <- RunTSNE(cbmc, dims = tsne_dim)
+
+# return(cbmc)
+
+# }
+
+# lg2 <- NormalizeData(lg2)
+# lg2 <- FindVariableFeatures(lg2)
+# lg2 <- ScaleData(lg2)
+# lg2 <- FindVariableFeatures(lg2)
+# lg2 <- RunPCA(lg2, verbose = FALSE)
+# lg2 <- FindNeighbors(lg2, dims = 1:30)
+# lg2 <- FindClusters(lg2, resolution = as.numeric(4.0), verbose = FALSE)
+# lg2 <- RunTSNE(lg2, dims = 1:30)
+
+
+# t9 = read_csv("data_sources/list/slc_final.csv")
+# t0 = read_csv("data_sources/list/slc_final.csv")
+# t0 = bind_rows(t9,t0[which(!(t0$GeneID %in% t9$GeneID)),])
+
+# # t1 = read_csv("~/projects/purp_scrna/data_sources/kegg_filtered/MPL.csv")
+# # t2 = t1[str_which(t1$Name, "nhr"),]
+# # t3 = str_extract_all(t2$Name, boundary("word")) %>% 
+# # str_extract_all("SLC[:alpha:]*[:digit:]*[:alpha:]*[:digit:]*", simplify = T)
+# # t4 = t3[,1]
+# # t5 = mutate(t2, Name = t4)
+
+# # pdf("test.pdf", height = 48, width = 24)
+# # DotPlot(lg, features = t5$GeneID) + 
+# #     scale_x_discrete(breaks=c(t5$GeneID),
+# #                      labels=c(t5$Name)) +
+# # coord_flip() + 
+# # RotatedAxis()
+# # dev.off()
+
+# t1 = FindAllMarkers(lg2,features=t0$GeneID[1:440],logfc.threshold=.5, only.pos=T)
+# t1 = group_by(t1, cluster) %>% group_map(.f=function(x,...)(subset(x,p_val==0)),.keep=T)
+
+# LOC593500
+# LOC578299
+# LOC593975
+# LOC764407
+# LOC574650
+# LOC588071
+# LOC581521
+# LOC585105
+# LOC577507
+# LOC583801
+
+# embryonic changes are irreversible
+# really useful for seeing how xenobiotic
+# a = DotPlot(lg, features = slc$GeneID,) + coord_flip()
+# b = ggplot_build(a)$plot$data
+# b = mutate(b, GeneID=rownames(b))
+# c = subset(b, avg.exp.scaled<=.5 & pct.exp <= 1)
+# d = merge(c, slc, by = "GeneID")
+# # e = d %>% na.omit()
+# e = d
+# f = unique(e$GeneID)
+# f %in% slc$GeneID %>% sum()
+# g = which(f %in% slc$GeneID)
+# slc2 = slc[-g,]
+# slc3 = mutate(slc2, Name = paste0(GeneID,"-",Name))
+# qq = lab_DP(lg,slc3, "meep",T)
+
+# pdf("lg_extraction_list.pdf", width = 8, height = 48)
+# qq
+# dev.off()
