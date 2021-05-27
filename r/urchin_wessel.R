@@ -75,6 +75,12 @@ devolist = c(cell8, cell64, morula, eb, hb, mb, eg, lg)
 print("Loaded the following: urchin_0, urchin_1, urchin_2, cell8, cell64, morula, eb, hb, mb, eg, lg, dev_stage_names, devolist")
 
 
+
+# obj.list <- SplitObject(urchin_2, split.by = "seurat_clusters")
+ectoderm = subset(urchin_2, idents = c("aboral-ectoderm", "oral_ectoderm_eb","oral_ectoderm_hb","oral_ectoderm_64","oral_ectoderm_m"))
+endoderm = subset(urchin_2, idents = c("endoderm_hb", "endoderm_endo-msd","endoderm_eb"))
 skeletal = subset(urchin_2, idents = c("skeleton_hb", "skeleton_64"))
 pigment = subset(urchin_2, idents = c("nsm_pigment_cells"))
-obj.list <- SplitObject(urchin_2, split.by = "seurat_clusters")
+germline = subset(urchin_2, idents = c("germline"))
+neural = subset(urchin_2, idents = c("neural_8_to_eg","neural_AnEctoE","aboral_ectoderm/neural","neural_AnEctoL","neural_neuro_prog"))
+
