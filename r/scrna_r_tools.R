@@ -1,12 +1,12 @@
-library(Seurat)
-library(patchwork)
 library(tidyverse)
-library(gridExtra)
-library(parallel)
+library(Seurat)
 library(plotly)
-library(cowplot)
-library(grid)
-library(tidyr)
+# library(cowplot)
+# library(grid)
+# library(tidyr)
+# library(patchwork)
+# library(gridExtra)
+# library(parallel)
 
 # extract_gene_locs finds which genes, from a user supplied list (features_list) of genes, are present in the 2020 Wessel single cell RNA seq dataset (scrna_df).
 # features_list takes a list two column dataframe with the names GeneID and Name. The GeneID is the locus ID of a gene of interest.
@@ -38,13 +38,13 @@ extract_gene_locs = function(features_list, scrna_df){
 
 # intramutate finds, within a dataframe (df), items in a list (search_replace_list$orig_search_list) which one seeks to replace items from another list (search_replace_list$replacement_list).
 # returns a tibble with replaced elements
-intramutate = function(df, search_replace_list){
+intramutate = function(df, orig_search_list, replacement_list){
   
-  for (i in 1:length(search_replace_list$replacement_list)){
+  for (i in 1:length(replacement_list)){
     
     df = case_when(
-      df == search_replace_list$orig_search_list[i] ~ search_replace_list$replacement_list[i],
-      df != search_replace_list$orig_search_list[i] ~ df
+      df == orig_search_list[i] ~ replacement_list[i],
+      df != orig_search_list[i] ~ df
     )
   }
   
@@ -106,7 +106,9 @@ lab_DP = function(scrna_df, feature_df, plot_title, flip_coord){
   }
   
   return(dp)
+
 }
+
 lab_multi_DP = function(scrna_df_list, title_list, lab_DP_feature_df, pdf_title, interactive = F, flip_coord = T){
   
   DP_list = map2(
@@ -142,70 +144,102 @@ lab_multi_DP = function(scrna_df_list, title_list, lab_DP_feature_df, pdf_title,
   }
 }
 
-# resub = function(cbmc, neighbors_dim, tsne_dim, cluster_res){
+find_markers_export = function(devolist, file_names_list){
 
-# cbmc <- NormalizeData(cbmc)
-# cbmc <- FindVariableFeatures(cbmc)
-# cbmc <- ScaleData(cbmc)
-# cbmc <- RunPCA(cbmc, verbose = FALSE)
-# cbmc <- FindNeighbors(cbmc, dims = neighbors_dim)
-# cbmc <- FindClusters(cbmc, resolution = as.numeric(cluster_res), verbose = FALSE)
-# cbmc <- RunTSNE(cbmc, dims = tsne_dim)
+  map2(.x = devolist,
+     .y = file_names_list,
+     .f = function(x,y)
+      (
+        FindAllMarkers(x,only.pos=T) %>% 
+        write_csv(paste0("tmp.out/",y,".csv"))
 
-# return(cbmc)
+        )
+      )
+
+}
+
+cluster_wise_dea = function(scrna_df, avg_expression_df, feature_df, target_cluster, avg_exp_scaled_thresh, stage_name, export_plotted_loci = NULL, export_name = NULL){
+  
+  q1 = avg_expression_df[avg_expression_df$gene %in% feature_df$GeneID %>% which(),] %>% mutate(GeneID=gene)
+  q2 = left_join(q1, feature_df, by = "GeneID")
+  q3 = q2[c("GeneID","Name")]
+  
+  a = lab_DP(scrna_df, unique(q3), "eg", T)
+
+  b = ggplot_build(a)$plot$data
+  b = mutate(b, GeneID=rownames(b))
+
+  c = subset(b, avg.exp.scaled>=avg_exp_scaled_thresh)
+  c = arrange(c,desc(avg.exp.scaled))
+  c = subset(c,id == target_cluster)
+
+  d = c$features.plot %>% unique() %>% droplevels()
+  d = tibble(GeneID=d,temp_name=d)
+
+  e = left_join(d,feature_df,by="GeneID")
+
+  f = unique(e$GeneID)
+  f %in% feature_df$GeneID %>% sum()
+
+  g = which(feature_df$GeneID %in% f)
+
+  check = feature_df[g,]
+  plot_df = mutate(check, Name = paste0(GeneID,"-",Name))
+  qq = lab_DP(scrna_df,plot_df, paste0(stage_name,"-",target_cluster),T)
+
+  return(qq)
+  qq
+
+}
+
+# calculate_subclusters = function(){
+
+#       # additional_markers = tibble(GeneID = c("gcm","Six1"), Name = c("gcm","Six1"))
+      
+      
+#       # pigment = subset(urchin_2, features = slcabc$GeneID, idents="nsm_pigment_cells")
+#       # # pigment2 <- CreateSeuratObject(counts = pigment2)
+#       # pigment <- NormalizeData(object = pigment)
+#       # pigment <- FindVariableFeatures(object = pigment)
+#       # pigment <- ScaleData(object = pigment)
+#       # pigment <- RunPCA(object = pigment)
+#       # pigment <- FindNeighbors(object = pigment, dims = 1:30)
+#       # pigment <- FindClusters(object = pigment, resolution = 0.4)
+#       # pigment <- RunTSNE(object = pigment)
+#       # pigment_split_stages = SplitObject(pigment,split.by="orig.ident")
+      
+#       # lab_multi_DP(pigment_split_stages,dev_stage_names_list[-2],slc_pigment,"pigment_cell_subclusters",F,T)
+      
+#       # plg = pigment_split_stages[7]
+#       # plg = plg$`Late Gastrula`
+#       # plg_count = plg@meta.data %>% count(seurat_clusters)
+      
+#       # pigment_meta_cell_barplot = map(.x = pigment_split_stages, .f=function(x)(x@meta.data %>% 
+#       #                                       count(seurat_clusters) %>% 
+#       #                                       mutate(percentage=paste0(round(n/sum(n),digits=4)*100,"%")
+#       #                                         )
+#       #                                       )
+#       # )
+      
+      
+      
+#       # meta_cell_barplot = function(meta_cell_df_list,title){
+#       #  plot = ggplot(meta_cell_df_list,mapping = aes(x=seurat_clusters,y=n)) +
+#       #     geom_bar(stat="identity") +
+#       #     geom_text(aes(label = percentage), vjust = 1.5, colour = "white") +
+#       #     xlab("Cluster ID") +
+#       #     ylab("Number of cells from a subcluster out of total in pigment cluster") +
+#       #     theme_classic() +
+#       #     ggtitle(title)
+      
+#       #   return(plot)
+      
+#       # }
+
+#       # p1 = map2(.x=pigment_meta_cell_barplot, .y=names(pigment_split_stages), .f=function(x,y)(meta_cell_barplot(x,y)))
+      
+#       # pdf("pigment_cell_subcluster_metadata.pdf",width=8,height=8)
+#       # p1
+#       # dev.off()
 
 # }
-
-# lg2 <- NormalizeData(lg2)
-# lg2 <- FindVariableFeatures(lg2)
-# lg2 <- ScaleData(lg2)
-# lg2 <- FindVariableFeatures(lg2)
-# lg2 <- RunPCA(lg2, verbose = FALSE)
-# lg2 <- FindNeighbors(lg2, dims = 1:30)
-# lg2 <- FindClusters(lg2, resolution = as.numeric(4.0), verbose = FALSE)
-# lg2 <- RunTSNE(lg2, dims = 1:30)
-
-
-# t9 = read_csv("data_sources/list/slc_final.csv")
-# t0 = read_csv("data_sources/list/slc_final.csv")
-# t0 = bind_rows(t9,t0[which(!(t0$GeneID %in% t9$GeneID)),])
-
-# # t1 = read_csv("~/projects/purp_scrna/data_sources/kegg_filtered/MPL.csv")
-# # t2 = t1[str_which(t1$Name, "nhr"),]
-# # t3 = str_extract_all(t2$Name, boundary("word")) %>% 
-# # str_extract_all("SLC[:alpha:]*[:digit:]*[:alpha:]*[:digit:]*", simplify = T)
-# # t4 = t3[,1]
-# # t5 = mutate(t2, Name = t4)
-
-# # pdf("test.pdf", height = 48, width = 24)
-# # DotPlot(lg, features = t5$GeneID) + 
-# #     scale_x_discrete(breaks=c(t5$GeneID),
-# #                      labels=c(t5$Name)) +
-# # coord_flip() + 
-# # RotatedAxis()
-# # dev.off()
-
-# t1 = FindAllMarkers(lg2,features=t0$GeneID[1:440],logfc.threshold=.5, only.pos=T)
-# t1 = group_by(t1, cluster) %>% group_map(.f=function(x,...)(subset(x,p_val==0)),.keep=T)
-
-
-a = DotPlot(lg, features = slc$GeneID,) + coord_flip()
-b = ggplot_build(a)$plot$data
-b = mutate(b, GeneID=rownames(b))
-c = subset(b, avg.exp.scaled<=.5 & pct.exp <= 1)
-d = merge(c, slc, by = "GeneID")
-# e = d %>% na.omit()
-e = d
-f = unique(e$GeneID)
-f %in% slc$GeneID %>% sum()
-g = which(f %in% slc$GeneID)
-slc2 = slc[-g,]
-slc3 = mutate(slc2, Name = paste0(GeneID,"-",Name))
-qq = lab_DP(lg,slc3, "meep",T)
-
-pdf("lg_extraction_list.pdf", width = 8, height = 48)
-qq
-dev.off()
-
-
-
