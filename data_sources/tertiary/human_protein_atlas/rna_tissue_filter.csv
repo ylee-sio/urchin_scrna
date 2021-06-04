@@ -1,0 +1,100 @@
+Gene,RNA tissue specificity,RNA tissue distribution,RNA tissue specificity score,RNA tissue specific NX,RNA single cell type specificity,RNA single cell type distribution,RNA single cell type specificity score,RNA single cell type specific NX
+GCM1,Tissue enriched,Detected in some,22,placenta: 102.4,Group enriched,Detected in some,7,Extravillous trophoblasts: 166.4;Syncytiotrophoblasts: 222.5
+GCM2,Tissue enriched,Detected in some,24,parathyroid gland: 110.5,Not detected,Not detected,NA,NA
+NANOS2,Tissue enriched,Detected in single,26,testis: 8.5,Not detected,Not detected,NA,NA
+SIX6,Tissue enriched,Detected in some,4,pituitary gland: 43.3,Cell type enhanced,Detected in some,33,Cone photoreceptor cells: 27.5;Horizontal cells: 46.1;Muller glia cells: 158.1
+SLC10A1,Tissue enriched,Detected in some,44,liver: 121.2,Cell type enriched,Detected in some,13,Hepatocytes: 130.2
+SLC10A2,Tissue enriched,Detected in some,4,intestine: 40.9,Group enriched,Detected in some,29,Enterocytes: 5.1;Proximal tubular cells: 6.4
+SLC15A1,Tissue enriched,Detected in many,8,intestine: 134.9,Cell type enhanced,Detected in many,16,Cholangiocytes: 30.6;Enterocytes: 51.2;Hepatocytes: 29.9
+SLC15A5,Group enriched,Detected in some,12,adipose tissue: 1.9;brain: 1.6;breast: 1.2;testis: 1.4,Cell type enhanced,Detected in single,35,Early spermatids: 2.2
+SLC1A3,Tissue enriched,Detected in many,11,brain: 188.6,Cell type enriched,Detected in many,9,Muller glia cells: 579.8
+SLC1A2,Tissue enriched,Detected in many,8,brain: 160.9,Cell type enhanced,Detected in many,14,Cone photoreceptor cells: 139.4;Early spermatids: 85.3;Rod photoreceptor cells: 160.3;Syncytiotrophoblasts: 225.3
+SLC1A6,Group enriched,Detected in some,4,brain: 52.1;testis: 23.3,Cell type enhanced,Detected in some,11,Bipolar cells: 12.3;Early spermatids: 29.3;Horizontal cells: 22.3;Late spermatids: 27.3;Syncytiotrophoblasts: 33.4
+SLC1A7,Tissue enriched,Detected in many,7,retina: 70.1,Group enriched,Detected in some,17,Bipolar cells: 228.0;Cone photoreceptor cells: 66.8;Rod photoreceptor cells: 66.6
+SLC22A24,Tissue enriched,Detected in some,5,kidney: 10.5,Cell type enriched,Detected in single,30,Proximal tubular cells: 8.4
+SLC22A1,Tissue enriched,Detected in some,24,liver: 175.8,Cell type enriched,Detected in some,16,Hepatocytes: 709.2
+SLC22A10,Tissue enriched,Detected in some,32,liver: 41.7,Cell type enriched,Detected in some,13,Hepatocytes: 15.5
+SLC22A11,Group enriched,Detected in some,10,epididymis: 22.2;kidney: 47.6;placenta: 64.7,Group enriched,Detected in some,17,Cytotrophoblasts: 554.5;Syncytiotrophoblasts: 1271.5
+SLC22A12,Tissue enriched,Detected in single,349,kidney: 70.1,Cell type enriched,Detected in some,18,Proximal tubular cells: 149.1
+SLC22A13,Tissue enriched,Detected in some,7,kidney: 16.4,Cell type enriched,Detected in single,23,Proximal tubular cells: 6.5
+SLC22A14,Tissue enriched,Detected in some,8,testis: 13.2,Group enriched,Detected in some,44,Early spermatids: 57.6;Late spermatids: 81.6
+SLC22A2,Tissue enriched,Detected in some,9,kidney: 61.8,Group enriched,Detected in some,13,Distal tubular cells: 77.9;Proximal tubular cells: 187.0
+SLC22A25,Tissue enriched,Detected in single,165,liver: 16.5,Cell type enriched,Detected in single,9,Hepatocytes: 5.8
+SLC22A31,Group enriched,Detected in some,21,brain: 39.3;lung: 50.7;pancreas: 69.7,Cell type enriched,Detected in some,6,Alveolar cells type 2: 129.3
+SLC22A6,Tissue enriched,Detected in some,10,kidney: 94.2,Cell type enriched,Detected in some,14,Proximal tubular cells: 213.4
+SLC22A7,Tissue enriched,Detected in some,6,liver: 88.9,Group enriched,Detected in some,16,Hepatocytes: 185.6;Proximal tubular cells: 86.1
+SLC22A8,Group enriched,Detected in some,341,brain: 33.7;kidney: 127.3;retina: 93.5,Cell type enriched,Detected in some,30,Proximal tubular cells: 197.4
+SLC22A9,Tissue enriched,Detected in some,11,liver: 32.2,Cell type enhanced,Detected in some,30,Cholangiocytes: 2.5;granulocytes: 4.6;Hepatocytes: 12.7
+SLC24A1,Tissue enriched,Detected in all,7,retina: 91.1,Cell type enriched,Detected in many,11,Rod photoreceptor cells: 301.7
+SLC24A2,Tissue enriched,Detected in some,5,brain: 31.8,Group enriched,Detected in some,18,Bipolar cells: 68.2;Cone photoreceptor cells: 257.2;Horizontal cells: 92.2
+SLC24A5,Tissue enriched,Detected in some,5,retina: 71.9,Cell type enriched,Detected in some,4,Melanocytes: 72.6
+SLC25A41,Group enriched,Detected in some,10,brain: 8.1;testis: 26.5,Cell type enriched,Detected in some,8,Early spermatids: 91.3
+SLC25A15,Group enriched,Detected in many,5,intestine: 26.0;liver: 66.4;pancreas: 24.9,Group enriched,Detected in many,4,Extravillous trophoblasts: 37.5;Hepatocytes: 30.8
+SLC25A18,Group enriched,Detected in many,8,adipose tissue: 13.1;brain: 49.0;liver: 50.0,Cell type enhanced,Detected in many,18,Alveolar cells type 1: 26.8;Alveolar cells type 2: 15.9;Ciliated cells: 28.1;Hepatocytes: 67.6
+SLC25A2,Tissue enriched,Detected in single,27,testis: 12.6,Group enriched,Detected in some,9,Early spermatids: 8.6;Late spermatids: 8.3;Spermatocytes: 2.2
+SLC25A31,Tissue enriched,Detected in single,687,testis: 68.6,Cell type enriched,Detected in some,9,Spermatocytes: 113.2
+SLC25A4,Group enriched,Detected in all,5,heart muscle: 163.7;skeletal muscle: 92.5;tongue: 62.4,Cell type enriched,Detected in many,5,Cardiomyocytes: 4236.1
+SLC25A47,Tissue enriched,Detected in some,88,liver: 127.2,Cell type enriched,Detected in some,21,Hepatocytes: 185.9
+SLC25A52,Tissue enriched,Detected in some,17,testis: 18.2,Group enriched,Detected in some,10,Early spermatids: 41.8;Late spermatids: 77.2
+UCP1,Group enriched,Detected in some,5,adipose tissue: 2.4;adrenal gland: 8.4;breast: 2.2;heart muscle: 7.1,Cell type enhanced,Detected in single,24,Syncytiotrophoblasts: 1.9
+UCP2,Group enriched,Detected in all,4,blood: 219.1;lymphoid tissue: 144.8,Cell type enhanced,Detected in many,11,Erythroid cells: 420.4;Hofbauer cells: 378.7;Intestinal endocrine cells: 285.5;monocytes: 710.6
+UCP3,Tissue enriched,Detected in some,15,skeletal muscle: 99.6,Group enriched,Detected in some,5,Early spermatids: 14.7;Late spermatids: 10.7
+SLC26A4,Tissue enriched,Detected in some,24,thyroid gland: 79.2,Cell type enhanced,Detected in many,7,Alveolar cells type 2: 11.4;Glandular cells: 8.7;Intestinal endocrine cells: 7.0;Melanocytes: 6.8
+SLC26A5,Tissue enriched,Detected in many,4,brain: 20.4,Cell type enhanced,Detected in some,14,Alveolar cells type 1: 6.0;Ciliated cells: 4.0;Ito cells: 3.7
+SLC26A3,Group enriched,Detected in some,5,gallbladder: 53.5;intestine: 110.1;lymphoid tissue: 42.8,Cell type enriched,Detected in some,11,Enterocytes: 543.6
+SLC26A7,Tissue enriched,Detected in some,15,thyroid gland: 194.5,Group enriched,Detected in some,5,Collecting duct cells: 22.7;Distal tubular cells: 11.6;Intestinal endocrine cells: 43.5;Ito cells: 15.4
+SLC26A8,Tissue enriched,Detected in some,12,testis: 65.2,Cell type enhanced,Detected in some,24,Early spermatids: 26.1;Late spermatids: 8.8;Spermatocytes: 42.9
+SLC26A9,Tissue enriched,Detected in some,6,salivary gland: 108.4,Cell type enhanced,Detected in some,23,Alveolar cells type 2: 51.6;Cardiomyocytes: 25.8;Proximal tubular cells: 10.5
+SLC27A2,Tissue enriched,Detected in many,4,liver: 168.1,Cell type enhanced,Detected in many,15,Cytotrophoblasts: 236.8;Hepatocytes: 188.9;Proximal tubular cells: 112.0
+SLC27A5,Tissue enriched,Detected in many,8,liver: 157.6,Group enriched,Detected in many,6,Early spermatids: 114.0;Hepatocytes: 338.0;Late spermatids: 303.5
+SLC2A14,Tissue enriched,Detected in some,7,testis: 52.4,Cell type enriched,Detected in many,7,Spermatocytes: 60.6
+SLC2A7,Tissue enriched,Detected in some,10,intestine: 19.3,Not detected,Not detected,NA,NA
+SLC2A1,Tissue enriched,Detected in all,4,placenta: 194.0,Cell type enhanced,Detected in many,20,Cytotrophoblasts: 686.5;Extravillous trophoblasts: 412.9;Syncytiotrophoblasts: 2076.2
+SLC2A2,Group enriched,Detected in some,8,intestine: 77.4;liver: 172.8,Cell type enriched,Detected in some,5,Hepatocytes: 433.3
+SLC30A10,Tissue enriched,Detected in some,5,liver: 33.4,Group enriched,Detected in some,6,Early spermatids: 23.4;Enterocytes: 12.9;Hepatocytes: 19.8;Late spermatids: 27.7
+SLC30A3,Group enriched,Detected in some,6,brain: 28.7;epididymis: 41.0;testis: 19.5,Group enriched,Detected in some,18,Cardiomyocytes: 8.1;Early spermatids: 13.1;Late spermatids: 29.1;Peritubular cells: 14.2;Spermatocytes: 18.7;Spermatogonia: 9.4
+SLC30A8,Tissue enriched,Detected in some,6,pancreas: 37.1,Cell type enhanced,Detected in some,17,Early spermatids: 3.0;Late spermatids: 5.4;Pancreatic endocrine cells: 8.2;Spermatogonia: 3.0
+SLC35F1,Tissue enriched,Detected in many,8,brain: 41.9,Cell type enhanced,Detected in some,13,Bipolar cells: 11.0;Early spermatids: 10.7;Horizontal cells: 15.9;Late spermatids: 17.4;Melanocytes: 13.5;Muller glia cells: 27.9
+SLC35F4,Group enriched,Detected in some,6,brain: 29.5;seminal vesicle: 10.5,Cell type enhanced,Detected in some,24,Cone photoreceptor cells: 3.9;Early spermatids: 5.9;Peritubular cells: 2.8;Rod photoreceptor cells: 14.2
+SLC36A2,Group enriched,Detected in some,9,kidney: 60.3;skeletal muscle: 36.8;tongue: 16.1,Cell type enriched,Detected in some,9,Proximal tubular cells: 44.0
+SLC36A3,Tissue enriched,Detected in single,17,testis: 14.5,Group enriched,Detected in some,57,Early spermatids: 47.0;Late spermatids: 85.3
+SLC38A4,Tissue enriched,Detected in some,22,liver: 128.2,Cell type enriched,Detected in some,16,Hepatocytes: 251.9
+SLC38A3,Tissue enriched,Detected in some,5,liver: 107.8,Group enriched,Detected in many,7,Bipolar cells: 86.1;Cone photoreceptor cells: 176.7;Hepatocytes: 93.4;Muller glia cells: 75.9;Rod photoreceptor cells: 112.3
+SLC38A5,Tissue enriched,Detected in many,5,pancreas: 87.7,Cell type enhanced,Detected in many,14,Exocrine glandular cells: 67.4;Pancreatic endocrine cells: 93.7
+SLC39A12,Group enriched,Detected in many,13,brain: 42.3;retina: 19.2,Cell type enriched,Detected in some,30,Muller glia cells: 85.4
+SLC39A4,Tissue enriched,Detected in some,9,intestine: 77.7,Cell type enhanced,Detected in many,5,Enterocytes: 153.2;Proximal tubular cells: 139.9
+SLC43A1,Group enriched,Detected in many,5,gallbladder: 27.0;liver: 91.8;pancreas: 100.5,Cell type enhanced,Detected in many,14,Cholangiocytes: 40.8;Hepatocytes: 109.6
+SLC45A2,Tissue enriched,Detected in some,9,retina: 39.9,Cell type enhanced,Detected in some,31,Early spermatids: 2.4;Late spermatids: 3.1;Melanocytes: 11.8
+SLC45A3,Tissue enriched,Detected in many,5,prostate: 115.0,Group enriched,Detected in many,11,Glandular cells: 50.8;granulocytes: 117.6
+SLC4A10,Group enriched,Detected in many,9,blood: 31.2;brain: 48.1,Cell type enriched,Detected in some,12,Bipolar cells: 116.7
+SLC4A5,Tissue enriched,Detected in many,5,retina: 109.1,Cell type enhanced,Detected in some,28,Cone photoreceptor cells: 33.4;Horizontal cells: 158.9;Rod photoreceptor cells: 43.4
+SLC4A9,Tissue enriched,Detected in some,7,kidney: 26.7,Cell type enhanced,Detected in single,21,Distal tubular cells: 1.7
+SLC52A1,Group enriched,Detected in some,4,intestine: 25.6;placenta: 34.6,Cell type enriched,Detected in some,5,Syncytiotrophoblasts: 685.8
+SLC5A12,Group enriched,Detected in some,4,intestine: 60.8;kidney: 90.3,Cell type enriched,Detected in some,18,Proximal tubular cells: 145.9
+SLC5A8,Group enriched,Detected in some,5,"cervix, uterine: 14.3;kidney: 13.8;thyroid gland: 21.2",Cell type enhanced,Detected in some,20,Alveolar cells type 2: 7.7;Horizontal cells: 9.5;Intestinal endocrine cells: 30.3;Proximal tubular cells: 10.3
+SLC5A1,Tissue enriched,Detected in many,11,intestine: 274.9,Cell type enhanced,Detected in many,13,Cardiomyocytes: 111.5;Cholangiocytes: 117.2;Early spermatids: 40.8;Late spermatids: 54.9
+SLC5A10,Tissue enriched,Detected in some,5,kidney: 70.6,Group enriched,Detected in some,4,Late spermatids: 20.1;Proximal tubular cells: 51.2
+SLC5A2,Tissue enriched,Detected in some,17,kidney: 33.7,Group enriched,Detected in some,11,Early spermatids: 46.9;Late spermatids: 103.8;Proximal tubular cells: 139.8
+SLC5A4,Tissue enriched,Detected in some,29,intestine: 73.6,Not detected,Not detected,NA,NA
+SLC5A5,Group enriched,Detected in some,6,brain: 31.5;salivary gland: 66.8;stomach 1: 32.7,Group enriched,Detected in some,6,Ciliated cells: 5.3;Club cells: 7.9;Spermatogonia: 7.9
+SLC5A7,Tissue enriched,Detected in many,9,brain: 45.1,Group enriched,Detected in some,13,Alveolar cells type 1: 3.0;Ciliated cells: 2.7;Club cells: 5.7
+SLC5A9,Tissue enriched,Detected in some,11,intestine: 77.3,Cell type enhanced,Detected in some,18,Alveolar cells type 1: 20.8;Early spermatids: 5.8;granulocytes: 4.6;Late spermatids: 7.9
+SLC6A16,Tissue enriched,Detected in many,13,testis: 102.2,Cell type enhanced,Detected in many,16,Early spermatids: 81.2;Late spermatids: 36.5;Spermatocytes: 90.2
+SLC6A17,Tissue enriched,Detected in many,4,brain: 53.5,Cell type enhanced,Detected in some,22,Bipolar cells: 2.1;Melanocytes: 10.1;Rod photoreceptor cells: 3.6
+SLC6A18,Tissue enriched,Detected in single,32,kidney: 14.1,Group enriched,Detected in some,71,Distal tubular cells: 6.6;Proximal tubular cells: 21.3
+SLC6A5,Tissue enriched,Detected in some,4,brain: 21.3,Group enriched,Detected in some,27,Early spermatids: 20.8;Late spermatids: 40.6
+SLC6A1,Group enriched,Detected in many,7,brain: 56.2;liver: 75.6,Cell type enhanced,Detected in some,16,Cholangiocytes: 17.8;Hepatocytes: 24.5;Muller glia cells: 41.9;Sertoli cells: 12.9
+SLC6A11,Group enriched,Detected in many,6,brain: 37.0;esophagus: 10.5;skin 1: 11.5,Cell type enhanced,Detected in some,19,Bipolar cells: 7.9;Extravillous trophoblasts: 6.2;Muller glia cells: 21.8;Peritubular cells: 6.3
+SLC6A13,Group enriched,Detected in some,7,kidney: 77.6;retina: 95.9,Cell type enriched,Detected in some,6,Proximal tubular cells: 261.2
+SLC6A19,Tissue enriched,Detected in some,6,intestine: 167.3,Group enriched,Detected in some,6,Cholangiocytes: 63.7;Enterocytes: 25.3;Proximal tubular cells: 65.4
+SLC6A20,Group enriched,Detected in many,5,gallbladder: 14.3;intestine: 25.5;retina: 51.3,Cell type enhanced,Detected in some,13,Alveolar cells type 2: 5.3;Cholangiocytes: 12.7;Ductal cells: 10.1;Pancreatic endocrine cells: 6.2
+SLC6A3,Tissue enriched,Detected in some,14,brain: 48.4,Cell type enriched,Detected in single,5,Alveolar cells type 2: 2.9
+SLC6A7,Tissue enriched,Detected in some,5,brain: 40.2,Cell type enhanced,Detected in some,18,Enterocytes: 2.1;Intestinal endocrine cells: 3.5;Mucus-secreting cells: 4.8;Paneth cells: 8.6;Undifferentiated cells: 3.4
+SLC7A13,Tissue enriched,Detected in some,12,kidney: 31.7,Cell type enhanced,Detected in some,31,Collecting duct cells: 1.8;Distal tubular cells: 3.3;Proximal tubular cells: 8.6
+SLC7A14,Group enriched,Detected in many,4,brain: 33.4;pituitary gland: 14.5,Group enriched,Detected in some,5,Bipolar cells: 31.5;Horizontal cells: 27.0
+SLC7A3,Tissue enriched,Detected in many,4,lymphoid tissue: 45.5,Group enriched,Detected in some,6,Early spermatids: 5.3;Late spermatids: 1.9
+SLC7A8,Tissue enriched,Detected in all,4,parathyroid gland: 204.0,Cell type enhanced,Detected in many,6,Ito cells: 97.0;Kupffer cells: 71.7;Proximal tubular cells: 98.9
+SLC7A9,Group enriched,Detected in some,4,intestine: 63.3;kidney: 26.4,Cell type enriched,Detected in some,5,Proximal tubular cells: 55.5
+SLC9A4,Group enriched,Detected in some,6,gallbladder: 23.2;kidney: 12.3;stomach 1: 33.9,Cell type enriched,Detected in some,8,Collecting duct cells: 24.4
+SLC9C1,Tissue enriched,Detected in some,6,testis: 25.5,Cell type enriched,Detected in some,6,Spermatocytes: 12.7
+SLC9C2,Tissue enriched,Detected in some,9,testis: 24.9,Cell type enhanced,Detected in some,13,Club cells: 2.3;Cone photoreceptor cells: 5.9;Early spermatids: 4.2;Late spermatids: 2.3;Spermatocytes: 4.2

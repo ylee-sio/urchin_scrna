@@ -1,0 +1,459 @@
+Gene,type,test,value,zscore
+SLC10A2,pigment,Tissue RNA - small intestine [NX],40.9,40.704763
+SLC10A2,pigment,Tissue RNA - duodenum [NX],13.6,13.404763
+SLC10A2,pigment,Tissue RNA - kidney [NX],9.7,9.504763004
+SLC10A2,pigment,Tissue RNA - colon [NX],1.5,1.304763004
+SLC10A2,pigment,Tissue RNA - gallbladder [NX],0.9,0.704763004
+SLC10A2,pigment,Tissue RNA - bone marrow [NX],0.1,-0.095236996
+SLC10A2,pigment,Tissue RNA - adipose tissue [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - adrenal gland [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - amygdala [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - appendix [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - basal ganglia [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - breast [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - cerebellum [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - cerebral cortex [NX],0,-0.195236996
+SLC10A2,pigment,"Tissue RNA - cervix, uterine [NX]",0,-0.195236996
+SLC10A2,pigment,Tissue RNA - corpus callosum [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - ductus deferens [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - endometrium 1 [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - epididymis [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - esophagus [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - fallopian tube [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - heart muscle [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - hippocampal formation [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - hypothalamus [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - liver [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - lung [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - lymph node [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - midbrain [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - olfactory region [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - ovary [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - pancreas [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - parathyroid gland [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - pituitary gland [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - placenta [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - pons and medulla [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - prostate [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - rectum [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - retina [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - salivary gland [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - seminal vesicle [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - skeletal muscle [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - skin 1 [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - smooth muscle [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - spinal cord [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - spleen [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - stomach 1 [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - testis [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - thalamus [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - thymus [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - thyroid gland [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - tongue [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - tonsil [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - urinary bladder [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - vagina [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - B-cells [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - dendritic cells [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - granulocytes [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - monocytes [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - NK-cells [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - T-cells [NX],0,-0.195236996
+SLC10A2,pigment,Tissue RNA - total PBMC [NX],0,-0.195236996
+SLC10A7,pigment,Tissue RNA - pituitary gland [NX],22.2,19.24406179
+SLC10A7,pigment,Tissue RNA - epididymis [NX],21.4,18.44406179
+SLC10A7,pigment,Tissue RNA - spinal cord [NX],19.3,16.34406179
+SLC10A7,pigment,Tissue RNA - ductus deferens [NX],17.4,14.44406179
+SLC10A7,pigment,Tissue RNA - liver [NX],17.2,14.24406179
+SLC10A7,pigment,Tissue RNA - cerebellum [NX],17,14.04406179
+SLC10A7,pigment,Tissue RNA - thymus [NX],16.8,13.84406179
+SLC10A7,pigment,Tissue RNA - stomach 1 [NX],16.3,13.34406179
+SLC10A7,pigment,Tissue RNA - rectum [NX],16.2,13.24406179
+SLC10A7,pigment,Tissue RNA - lung [NX],16,13.04406179
+SLC10A7,pigment,Tissue RNA - seminal vesicle [NX],16,13.04406179
+SLC11A2,germline,Tissue RNA - midbrain [NX],40,38.03620575
+SLC11A2,germline,Tissue RNA - corpus callosum [NX],38.2,36.23620575
+SLC11A2,germline,Tissue RNA - duodenum [NX],35.3,33.33620575
+SLC11A2,germline,Tissue RNA - spinal cord [NX],33.1,31.13620575
+SLC11A2,germline,Tissue RNA - thalamus [NX],31,29.03620575
+SLC11A2,germline,Tissue RNA - thyroid gland [NX],29.9,27.93620575
+SLC11A2,germline,Tissue RNA - parathyroid gland [NX],29.8,27.83620575
+SLC11A2,germline,Tissue RNA - pons and medulla [NX],29.7,27.73620575
+SLC11A2,germline,Tissue RNA - salivary gland [NX],26.9,24.93620575
+SLC11A2,germline,Tissue RNA - basal ganglia [NX],26.2,24.23620575
+SLC15A1,germline,Tissue RNA - small intestine [NX],134.9,134.6358034
+SLC15A1,germline,Tissue RNA - colon [NX],51.7,51.43580337
+SLC15A1,germline,Tissue RNA - duodenum [NX],42.7,42.43580337
+SLC15A1,germline,Tissue RNA - gallbladder [NX],16.6,16.33580337
+SLC15A1,germline,Tissue RNA - skin 1 [NX],9.9,9.635803367
+SLC15A1,germline,Tissue RNA - liver [NX],8.2,7.935803367
+SLC15A1,germline,Tissue RNA - pancreas [NX],7.1,6.835803367
+SLC15A1,germline,Tissue RNA - kidney [NX],6.3,6.035803367
+SLC15A1,germline,Tissue RNA - parathyroid gland [NX],4.3,4.035803367
+SLC15A1,germline,Tissue RNA - granulocytes [NX],2.3,2.035803367
+SLC1A2,skeletal,Tissue RNA - cerebral cortex [NX],160.9,160.5001993
+SLC1A2,skeletal,Tissue RNA - basal ganglia [NX],79.4,79.00019928
+SLC1A2,skeletal,Tissue RNA - amygdala [NX],65.1,64.70019928
+SLC1A2,skeletal,Tissue RNA - hippocampal formation [NX],47.6,47.20019928
+SLC1A2,skeletal,Tissue RNA - olfactory region [NX],43.1,42.70019928
+SLC1A2,skeletal,Tissue RNA - pons and medulla [NX],27.6,27.20019928
+SLC1A2,skeletal,Tissue RNA - liver [NX],20.5,20.10019928
+SLC1A2,skeletal,Tissue RNA - spinal cord [NX],17.2,16.80019928
+SLC1A2,skeletal,Tissue RNA - thalamus [NX],16.3,15.90019928
+SLC1A2,skeletal,Tissue RNA - midbrain [NX],15.2,14.80019928
+SLC22A4,skeletal,Tissue RNA - granulocytes [NX],23,22.02873219
+SLC22A4,pigment,Tissue RNA - granulocytes [NX],23,22.02873219
+SLC22A4,skeletal,Tissue RNA - bone marrow [NX],22.4,21.42873219
+SLC22A4,pigment,Tissue RNA - bone marrow [NX],22.4,21.42873219
+SLC22A4,skeletal,Tissue RNA - small intestine [NX],18.1,17.12873219
+SLC22A4,pigment,Tissue RNA - small intestine [NX],18.1,17.12873219
+SLC22A4,skeletal,Tissue RNA - kidney [NX],15.4,14.42873219
+SLC22A4,pigment,Tissue RNA - kidney [NX],15.4,14.42873219
+SLC22A4,skeletal,Tissue RNA - fallopian tube [NX],14.7,13.72873219
+SLC22A4,pigment,Tissue RNA - fallopian tube [NX],14.7,13.72873219
+SLC24A5,germline,Tissue RNA - retina [NX],71.9,71.71375589
+SLC24A5,germline,Tissue RNA - skin 1 [NX],15.4,15.21375589
+SLC24A5,germline,Tissue RNA - testis [NX],3,2.813755888
+SLC24A5,germline,Tissue RNA - midbrain [NX],1.7,1.513755888
+SLC24A5,germline,Tissue RNA - cerebellum [NX],1.5,1.313755888
+SLC24A5,germline,Tissue RNA - pituitary gland [NX],1.5,1.313755888
+SLC24A5,germline,Tissue RNA - hypothalamus [NX],1,0.813755888
+SLC24A5,germline,Tissue RNA - small intestine [NX],0.7,0.513755888
+SLC24A5,germline,Tissue RNA - basal ganglia [NX],0.6,0.413755888
+SLC24A5,germline,Tissue RNA - breast [NX],0.6,0.413755888
+SLC24A5,germline,Tissue RNA - spinal cord [NX],0.6,0.413755888
+SLC25A1,pigment,Tissue RNA - liver [NX],60.2,58.71632924
+SLC25A1,pigment,Tissue RNA - breast [NX],59.1,57.61632924
+SLC25A1,pigment,Tissue RNA - small intestine [NX],53.9,52.41632924
+SLC25A1,pigment,Tissue RNA - duodenum [NX],50.1,48.61632924
+SLC25A1,pigment,Tissue RNA - adipose tissue [NX],42.5,41.01632924
+SLC25A1,pigment,Tissue RNA - granulocytes [NX],38.5,37.01632924
+SLC25A1,pigment,Tissue RNA - colon [NX],33.8,32.31632924
+SLC25A1,pigment,Tissue RNA - kidney [NX],26.2,24.71632924
+SLC25A1,pigment,Tissue RNA - gallbladder [NX],25.1,23.61632924
+SLC25A1,pigment,Tissue RNA - pancreas [NX],25.1,23.61632924
+SLC25A10,pigment,Tissue RNA - liver [NX],51.8,50.94436101
+SLC25A10,pigment,Tissue RNA - testis [NX],21.8,20.94436101
+SLC25A10,pigment,Tissue RNA - kidney [NX],21,20.14436101
+SLC25A10,pigment,Tissue RNA - pancreas [NX],17.4,16.54436101
+SLC25A10,pigment,Tissue RNA - salivary gland [NX],16.8,15.94436101
+SLC25A10,pigment,Tissue RNA - duodenum [NX],13.9,13.04436101
+SLC25A10,pigment,Tissue RNA - esophagus [NX],12.2,11.34436101
+SLC25A10,pigment,Tissue RNA - small intestine [NX],11.2,10.34436101
+SLC25A10,pigment,Tissue RNA - parathyroid gland [NX],10.7,9.844361006
+SLC25A10,pigment,Tissue RNA - adipose tissue [NX],10.2,9.344361006
+SLC25A20,pigment,Tissue RNA - liver [NX],58.3,57.33867328
+SLC25A20,pigment,Tissue RNA - granulocytes [NX],57.8,56.83867328
+SLC25A20,pigment,Tissue RNA - heart muscle [NX],37.1,36.13867328
+SLC25A20,pigment,Tissue RNA - dendritic cells [NX],33.3,32.33867328
+SLC25A20,pigment,Tissue RNA - small intestine [NX],32.2,31.23867328
+SLC25A20,pigment,Tissue RNA - monocytes [NX],29,28.03867328
+SLC25A20,pigment,Tissue RNA - T-cells [NX],28.4,27.43867328
+SLC25A20,pigment,Tissue RNA - skeletal muscle [NX],27.4,26.43867328
+SLC25A20,pigment,Tissue RNA - duodenum [NX],25,24.03867328
+SLC25A20,pigment,Tissue RNA - total PBMC [NX],24.7,23.73867328
+SLC25A28,germline,Tissue RNA - bone marrow [NX],52.2,49.6534553
+SLC25A28,germline,Tissue RNA - basal ganglia [NX],37.5,34.9534553
+SLC25A28,germline,Tissue RNA - smooth muscle [NX],37.3,34.7534553
+SLC25A28,germline,Tissue RNA - vagina [NX],36.5,33.9534553
+SLC25A28,germline,Tissue RNA - skeletal muscle [NX],35.1,32.5534553
+SLC25A28,germline,Tissue RNA - seminal vesicle [NX],35,32.4534553
+SLC25A28,germline,Tissue RNA - cerebellum [NX],34.8,32.2534553
+SLC25A28,germline,Tissue RNA - epididymis [NX],34.7,32.1534553
+SLC25A28,germline,Tissue RNA - thalamus [NX],34.6,32.0534553
+SLC25A28,germline,Tissue RNA - testis [NX],34.1,31.5534553
+SLC25A34,pigment,Tissue RNA - small intestine [NX],38.8,38.20672621
+SLC25A34,pigment,Tissue RNA - colon [NX],25.9,25.30672621
+SLC25A34,pigment,Tissue RNA - skeletal muscle [NX],22.2,21.60672621
+SLC25A34,pigment,Tissue RNA - pancreas [NX],18.6,18.00672621
+SLC25A34,pigment,Tissue RNA - duodenum [NX],13.5,12.90672621
+SLC25A34,pigment,Tissue RNA - heart muscle [NX],13.3,12.70672621
+SLC25A34,pigment,Tissue RNA - salivary gland [NX],11.1,10.50672621
+SLC25A34,pigment,Tissue RNA - tongue [NX],11,10.40672621
+SLC25A34,pigment,Tissue RNA - cerebellum [NX],10.4,9.806726209
+SLC25A34,pigment,Tissue RNA - kidney [NX],7.3,6.706726209
+SLC25A42,germline,Tissue RNA - liver [NX],42.3,41.10052713
+SLC25A42,germline,Tissue RNA - kidney [NX],26.7,25.50052713
+SLC25A42,germline,Tissue RNA - skeletal muscle [NX],26.7,25.50052713
+SLC25A42,germline,Tissue RNA - cerebellum [NX],22.5,21.30052713
+SLC25A42,germline,Tissue RNA - thyroid gland [NX],17.1,15.90052713
+SLC25A42,germline,Tissue RNA - cerebral cortex [NX],15.4,14.20052713
+SLC25A42,germline,Tissue RNA - amygdala [NX],13.8,12.60052713
+SLC25A42,germline,Tissue RNA - ovary [NX],13.8,12.60052713
+SLC25A42,germline,Tissue RNA - basal ganglia [NX],12.2,11.00052713
+SLC25A42,germline,Tissue RNA - retina [NX],12.2,11.00052713
+SLC25A42,germline,Tissue RNA - tonsil [NX],12.2,11.00052713
+SLC26A11,pigment,Tissue RNA - adrenal gland [NX],30.9,29.20409048
+SLC26A11,pigment,Tissue RNA - hypothalamus [NX],30.5,28.80409048
+SLC26A11,pigment,Tissue RNA - pituitary gland [NX],25.6,23.90409048
+SLC26A11,pigment,Tissue RNA - placenta [NX],21.1,19.40409048
+SLC26A11,pigment,Tissue RNA - basal ganglia [NX],19.3,17.60409048
+SLC26A11,pigment,Tissue RNA - ovary [NX],18.3,16.60409048
+SLC26A11,pigment,Tissue RNA - thyroid gland [NX],18.1,16.40409048
+SLC26A11,pigment,Tissue RNA - cerebral cortex [NX],18,16.30409048
+SLC26A11,pigment,Tissue RNA - olfactory region [NX],17.4,15.70409048
+SLC26A11,pigment,Tissue RNA - spleen [NX],17.3,15.60409048
+SLC27A2,germline,Tissue RNA - liver [NX],168.1,167.8415239
+SLC27A2,germline,Tissue RNA - kidney [NX],39.4,39.14152392
+SLC27A2,germline,Tissue RNA - granulocytes [NX],27.3,27.04152392
+SLC27A2,germline,Tissue RNA - epididymis [NX],17.5,17.24152392
+SLC27A2,germline,Tissue RNA - pituitary gland [NX],10.4,10.14152392
+SLC27A2,germline,Tissue RNA - adrenal gland [NX],8.1,7.841523924
+SLC27A2,germline,Tissue RNA - placenta [NX],7.4,7.141523924
+SLC27A2,germline,Tissue RNA - pancreas [NX],6.3,6.041523924
+SLC27A2,germline,Tissue RNA - small intestine [NX],5.3,5.041523924
+SLC27A2,germline,Tissue RNA - colon [NX],4.2,3.941523924
+SLC2A1,germline,Tissue RNA - placenta [NX],194,193.4960817
+SLC2A1,germline,Tissue RNA - bone marrow [NX],45.2,44.69608173
+SLC2A1,germline,Tissue RNA - retina [NX],44.2,43.69608173
+SLC2A1,germline,Tissue RNA - skin 1 [NX],42.1,41.59608173
+SLC2A1,germline,Tissue RNA - esophagus [NX],28.8,28.29608173
+SLC2A1,germline,Tissue RNA - vagina [NX],24.5,23.99608173
+SLC2A1,germline,Tissue RNA - urinary bladder [NX],22.2,21.69608173
+SLC2A1,germline,Tissue RNA - midbrain [NX],18.2,17.69608173
+SLC2A1,germline,Tissue RNA - spinal cord [NX],17.8,17.29608173
+SLC2A1,germline,Tissue RNA - basal ganglia [NX],16.9,16.39608173
+SLC30A1,germline,Tissue RNA - liver [NX],53.3,52.03131767
+SLC30A1,germline,Tissue RNA - small intestine [NX],28.1,26.83131767
+SLC30A1,germline,Tissue RNA - breast [NX],17.3,16.03131767
+SLC30A1,germline,Tissue RNA - duodenum [NX],17.2,15.93131767
+SLC30A1,germline,Tissue RNA - adrenal gland [NX],16.6,15.33131767
+SLC30A1,germline,Tissue RNA - bone marrow [NX],15.5,14.23131767
+SLC30A1,germline,Tissue RNA - colon [NX],15.3,14.03131767
+SLC30A1,germline,Tissue RNA - skin 1 [NX],13.9,12.63131767
+SLC30A1,germline,Tissue RNA - cerebral cortex [NX],13.6,12.33131767
+SLC30A1,germline,Tissue RNA - kidney [NX],13.4,12.13131767
+SLC35A1,pigment,Tissue RNA - rectum [NX],31.6,28.79215129
+SLC35A1,pigment,Tissue RNA - monocytes [NX],28.4,25.59215129
+SLC35A1,pigment,Tissue RNA - colon [NX],25.3,22.49215129
+SLC35A1,pigment,Tissue RNA - prostate [NX],24.9,22.09215129
+SLC35A1,pigment,Tissue RNA - dendritic cells [NX],24.6,21.79215129
+SLC35A1,pigment,Tissue RNA - pituitary gland [NX],24.4,21.59215129
+SLC35A1,pigment,Tissue RNA - lung [NX],24.2,21.39215129
+SLC35A1,pigment,Tissue RNA - cerebellum [NX],24.1,21.29215129
+SLC35A1,pigment,Tissue RNA - cerebral cortex [NX],22.9,20.09215129
+SLC35A1,pigment,Tissue RNA - granulocytes [NX],21.6,18.79215129
+SLC35A5,pigment,Tissue RNA - spinal cord [NX],42.9,40.64481101
+SLC35A5,pigment,Tissue RNA - midbrain [NX],37.8,35.54481101
+SLC35A5,pigment,Tissue RNA - corpus callosum [NX],32.7,30.44481101
+SLC35A5,pigment,Tissue RNA - pons and medulla [NX],27.5,25.24481101
+SLC35A5,pigment,Tissue RNA - thalamus [NX],26.6,24.34481101
+SLC35A5,pigment,Tissue RNA - cerebral cortex [NX],24.1,21.84481101
+SLC35A5,pigment,Tissue RNA - thyroid gland [NX],23.8,21.54481101
+SLC35A5,pigment,Tissue RNA - hippocampal formation [NX],22.9,20.64481101
+SLC35A5,pigment,Tissue RNA - basal ganglia [NX],22.1,19.84481101
+SLC35A5,pigment,Tissue RNA - hypothalamus [NX],22,19.74481101
+SLC35B2,pigment,Tissue RNA - salivary gland [NX],49.6,46.97730141
+SLC35B2,pigment,Tissue RNA - pancreas [NX],38.1,35.47730141
+SLC35B2,pigment,Tissue RNA - corpus callosum [NX],35.8,33.17730141
+SLC35B2,pigment,Tissue RNA - liver [NX],35.5,32.87730141
+SLC35B2,pigment,Tissue RNA - kidney [NX],32.3,29.67730141
+SLC35B2,pigment,Tissue RNA - adrenal gland [NX],28.2,25.57730141
+SLC35B2,pigment,Tissue RNA - parathyroid gland [NX],27.4,24.77730141
+SLC35B2,pigment,Tissue RNA - gallbladder [NX],27.1,24.47730141
+SLC35B2,pigment,Tissue RNA - placenta [NX],26.1,23.47730141
+SLC35B2,pigment,Tissue RNA - cerebral cortex [NX],24.8,22.17730141
+SLC35C1,germline,Tissue RNA - liver [NX],74.7,73.76062121
+SLC35C1,germline,Tissue RNA - esophagus [NX],22.5,21.56062121
+SLC35C1,germline,Tissue RNA - duodenum [NX],17.4,16.46062121
+SLC35C1,germline,Tissue RNA - small intestine [NX],17.4,16.46062121
+SLC35C1,germline,Tissue RNA - T-cells [NX],16.7,15.76062121
+SLC35C1,germline,Tissue RNA - salivary gland [NX],15.5,14.56062121
+SLC35C1,germline,Tissue RNA - adipose tissue [NX],14.9,13.96062121
+SLC35C1,germline,Tissue RNA - breast [NX],14.3,13.36062121
+SLC35C1,germline,Tissue RNA - colon [NX],13.8,12.86062121
+SLC35C1,germline,Tissue RNA - stomach 1 [NX],13.4,12.46062121
+SLC35C2,pigment,Tissue RNA - dendritic cells [NX],42.9,38.83162322
+SLC35C2,pigment,Tissue RNA - salivary gland [NX],30.9,26.83162322
+SLC35C2,pigment,Tissue RNA - pancreas [NX],30.5,26.43162322
+SLC35C2,pigment,Tissue RNA - cerebellum [NX],30.3,26.23162322
+SLC35C2,pigment,Tissue RNA - placenta [NX],29.8,25.73162322
+SLC35C2,pigment,Tissue RNA - retina [NX],28.9,24.83162322
+SLC35C2,pigment,Tissue RNA - T-cells [NX],28.3,24.23162322
+SLC35C2,pigment,Tissue RNA - granulocytes [NX],26.8,22.73162322
+SLC35C2,pigment,Tissue RNA - appendix [NX],26.7,22.63162322
+SLC35C2,pigment,Tissue RNA - liver [NX],26.7,22.63162322
+SLC35E1,pigment,Tissue RNA - pancreas [NX],34.5,32.32761604
+SLC35E1,pigment,Tissue RNA - parathyroid gland [NX],25.8,23.62761604
+SLC35E1,pigment,Tissue RNA - placenta [NX],23.9,21.72761604
+SLC35E1,pigment,Tissue RNA - salivary gland [NX],23.7,21.52761604
+SLC35E1,pigment,Tissue RNA - skeletal muscle [NX],23.1,20.92761604
+SLC35E1,pigment,Tissue RNA - ductus deferens [NX],22.4,20.22761604
+SLC35E1,pigment,Tissue RNA - seminal vesicle [NX],21.4,19.22761604
+SLC35E1,pigment,Tissue RNA - liver [NX],20.1,17.92761604
+SLC35E1,pigment,Tissue RNA - cerebral cortex [NX],19.2,17.02761604
+SLC35E1,pigment,Tissue RNA - prostate [NX],17.9,15.72761604
+SLC35F3,pigment,Tissue RNA - basal ganglia [NX],26,25.40092184
+SLC35F3,pigment,Tissue RNA - cerebellum [NX],25.1,24.50092184
+SLC35F3,pigment,Tissue RNA - cerebral cortex [NX],16.7,16.10092184
+SLC35F3,pigment,Tissue RNA - dendritic cells [NX],7.1,6.500921845
+SLC35F3,pigment,Tissue RNA - breast [NX],6.8,6.200921845
+SLC35F3,pigment,Tissue RNA - olfactory region [NX],6.6,6.000921845
+SLC35F3,pigment,Tissue RNA - salivary gland [NX],6.6,6.000921845
+SLC35F3,pigment,Tissue RNA - hippocampal formation [NX],5.4,4.800921845
+SLC35F3,pigment,Tissue RNA - midbrain [NX],4.8,4.200921845
+SLC35F3,pigment,Tissue RNA - spinal cord [NX],4.8,4.200921845
+SLC38A9,germline,Tissue RNA - placenta [NX],44.2,42.5374926
+SLC38A9,germline,Tissue RNA - pancreas [NX],18.2,16.5374926
+SLC38A9,germline,Tissue RNA - testis [NX],15.8,14.1374926
+SLC38A9,germline,Tissue RNA - liver [NX],13.5,11.8374926
+SLC38A9,germline,Tissue RNA - thymus [NX],13.3,11.6374926
+SLC38A9,germline,Tissue RNA - pituitary gland [NX],11.8,10.1374926
+SLC38A9,germline,Tissue RNA - monocytes [NX],11.8,10.1374926
+SLC38A9,germline,Tissue RNA - tonsil [NX],11.4,9.737492597
+SLC38A9,germline,Tissue RNA - B-cells [NX],10.8,9.137492597
+SLC38A9,germline,Tissue RNA - dendritic cells [NX],10.8,9.137492597
+SLC39A1,skeletal,Tissue RNA - placenta [NX],65.5,63.26256315
+SLC39A1,skeletal,Tissue RNA - liver [NX],53.7,51.46256315
+SLC39A1,skeletal,Tissue RNA - thyroid gland [NX],46.9,44.66256315
+SLC39A1,skeletal,Tissue RNA - kidney [NX],39,36.76256315
+SLC39A1,skeletal,Tissue RNA - lung [NX],34.7,32.46256315
+SLC39A1,skeletal,Tissue RNA - monocytes [NX],34.7,32.46256315
+SLC39A1,skeletal,Tissue RNA - adipose tissue [NX],32.5,30.26256315
+SLC39A1,skeletal,Tissue RNA - gallbladder [NX],31.9,29.66256315
+SLC39A1,skeletal,Tissue RNA - adrenal gland [NX],31.8,29.56256315
+SLC39A1,skeletal,Tissue RNA - prostate [NX],29.5,27.26256315
+SLC39A11,germline,Tissue RNA - midbrain [NX],27.8,26.08676081
+SLC39A11,germline,Tissue RNA - stomach 1 [NX],27.6,25.88676081
+SLC39A11,germline,Tissue RNA - pancreas [NX],23.8,22.08676081
+SLC39A11,germline,Tissue RNA - thalamus [NX],22.5,20.78676081
+SLC39A11,germline,Tissue RNA - liver [NX],21.9,20.18676081
+SLC39A11,germline,Tissue RNA - thyroid gland [NX],20.6,18.88676081
+SLC39A11,germline,Tissue RNA - corpus callosum [NX],19.8,18.08676081
+SLC39A11,germline,Tissue RNA - basal ganglia [NX],17.9,16.18676081
+SLC39A11,germline,Tissue RNA - salivary gland [NX],16.6,14.88676081
+SLC39A11,germline,Tissue RNA - monocytes [NX],16.2,14.48676081
+SLC43A3,germline,Tissue RNA - liver [NX],149.9,149.2953953
+SLC43A3,germline,Tissue RNA - thyroid gland [NX],69,68.39539532
+SLC43A3,germline,Tissue RNA - monocytes [NX],36.8,36.19539532
+SLC43A3,germline,Tissue RNA - adipose tissue [NX],32.3,31.69539532
+SLC43A3,germline,Tissue RNA - dendritic cells [NX],23.6,22.99539532
+SLC43A3,germline,Tissue RNA - urinary bladder [NX],20.3,19.69539532
+SLC43A3,germline,Tissue RNA - bone marrow [NX],18.8,18.19539532
+SLC43A3,germline,Tissue RNA - breast [NX],16.8,16.19539532
+SLC43A3,germline,Tissue RNA - lung [NX],16.5,15.89539532
+SLC43A3,germline,Tissue RNA - ovary [NX],16,15.39539532
+SLC45A1,pigment,Tissue RNA - cerebral cortex [NX],24,22.90092892
+SLC45A1,pigment,Tissue RNA - basal ganglia [NX],15.3,14.20092892
+SLC45A1,pigment,Tissue RNA - cerebellum [NX],13.8,12.70092892
+SLC45A1,pigment,Tissue RNA - pons and medulla [NX],13.1,12.00092892
+SLC45A1,pigment,Tissue RNA - olfactory region [NX],12.4,11.30092892
+SLC45A1,pigment,Tissue RNA - amygdala [NX],8.5,7.400928921
+SLC45A1,pigment,Tissue RNA - pituitary gland [NX],8.1,7.000928921
+SLC45A1,pigment,Tissue RNA - hypothalamus [NX],7.9,6.800928921
+SLC45A1,pigment,Tissue RNA - seminal vesicle [NX],7.7,6.600928921
+SLC45A1,pigment,Tissue RNA - monocytes [NX],7.1,6.000928921
+SLC45A3,pigment,Tissue RNA - prostate [NX],115,114.6947574
+SLC45A3,pigment,Tissue RNA - granulocytes [NX],22.6,22.29475745
+SLC45A3,pigment,Tissue RNA - corpus callosum [NX],19,18.69475745
+SLC45A3,pigment,Tissue RNA - midbrain [NX],13.2,12.89475745
+SLC45A3,pigment,Tissue RNA - spinal cord [NX],12.4,12.09475745
+SLC45A3,pigment,Tissue RNA - thalamus [NX],11.1,10.79475745
+SLC45A3,pigment,Tissue RNA - pons and medulla [NX],7.2,6.894757447
+SLC45A3,pigment,Tissue RNA - stomach 1 [NX],6.4,6.094757447
+SLC45A3,pigment,Tissue RNA - basal ganglia [NX],6.2,5.894757447
+SLC45A3,pigment,Tissue RNA - cerebral cortex [NX],5.8,5.494757447
+SLC46A1,germline,Tissue RNA - small intestine [NX],52.7,52.0225081
+SLC46A1,pigment,Tissue RNA - small intestine [NX],52.7,52.0225081
+SLC46A1,germline,Tissue RNA - duodenum [NX],45.4,44.7225081
+SLC46A1,pigment,Tissue RNA - duodenum [NX],45.4,44.7225081
+SLC46A1,germline,Tissue RNA - colon [NX],43.8,43.1225081
+SLC46A1,pigment,Tissue RNA - colon [NX],43.8,43.1225081
+SLC46A1,germline,Tissue RNA - liver [NX],17.9,17.2225081
+SLC46A1,pigment,Tissue RNA - liver [NX],17.9,17.2225081
+SLC46A1,germline,Tissue RNA - adrenal gland [NX],17.8,17.1225081
+SLC46A1,pigment,Tissue RNA - adrenal gland [NX],17.8,17.1225081
+SLC4A10,skeletal,Tissue RNA - cerebral cortex [NX],48.1,47.5784125
+SLC4A10,skeletal,Tissue RNA - T-cells [NX],31.2,30.6784125
+SLC4A10,skeletal,Tissue RNA - olfactory region [NX],29.6,29.0784125
+SLC4A10,skeletal,Tissue RNA - basal ganglia [NX],24.1,23.5784125
+SLC4A10,skeletal,Tissue RNA - amygdala [NX],21.6,21.0784125
+SLC4A10,skeletal,Tissue RNA - hippocampal formation [NX],20.4,19.8784125
+SLC4A10,skeletal,Tissue RNA - pons and medulla [NX],17.7,17.1784125
+SLC4A10,skeletal,Tissue RNA - cerebellum [NX],14.9,14.3784125
+SLC4A10,skeletal,Tissue RNA - hypothalamus [NX],10.8,10.2784125
+SLC4A10,skeletal,Tissue RNA - pituitary gland [NX],4.4,3.878412496
+SLC4A11,skeletal,Tissue RNA - thyroid gland [NX],42.7,42.24704605
+SLC4A11,germline,Tissue RNA - thyroid gland [NX],42.7,42.24704605
+SLC4A11,skeletal,Tissue RNA - salivary gland [NX],34.4,33.94704605
+SLC4A11,germline,Tissue RNA - salivary gland [NX],34.4,33.94704605
+SLC4A11,skeletal,Tissue RNA - kidney [NX],11.4,10.94704605
+SLC4A11,germline,Tissue RNA - kidney [NX],11.4,10.94704605
+SLC4A11,skeletal,"Tissue RNA - cervix, uterine [NX]",8.6,8.147046054
+SLC4A11,germline,"Tissue RNA - cervix, uterine [NX]",8.6,8.147046054
+SLC4A11,skeletal,Tissue RNA - esophagus [NX],7.5,7.047046054
+SLC4A11,germline,Tissue RNA - esophagus [NX],7.5,7.047046054
+SLC52A3,skeletal,Tissue RNA - testis [NX],32.5,31.69573734
+SLC52A3,germline,Tissue RNA - testis [NX],32.5,31.69573734
+SLC52A3,pigment,Tissue RNA - testis [NX],32.5,31.69573734
+SLC52A3,skeletal,Tissue RNA - small intestine [NX],16.3,15.49573734
+SLC52A3,germline,Tissue RNA - small intestine [NX],16.3,15.49573734
+SLC52A3,pigment,Tissue RNA - small intestine [NX],16.3,15.49573734
+SLC52A3,skeletal,Tissue RNA - seminal vesicle [NX],15.8,14.99573734
+SLC52A3,germline,Tissue RNA - seminal vesicle [NX],15.8,14.99573734
+SLC52A3,pigment,Tissue RNA - seminal vesicle [NX],15.8,14.99573734
+SLC52A3,skeletal,Tissue RNA - duodenum [NX],13.1,12.29573734
+SLC52A3,germline,Tissue RNA - duodenum [NX],13.1,12.29573734
+SLC52A3,pigment,Tissue RNA - duodenum [NX],13.1,12.29573734
+SLC5A11,skeletal,Tissue RNA - midbrain [NX],48,47.51385924
+SLC5A11,skeletal,Tissue RNA - spinal cord [NX],34.7,34.21385924
+SLC5A11,skeletal,Tissue RNA - corpus callosum [NX],29.7,29.21385924
+SLC5A11,skeletal,Tissue RNA - thalamus [NX],22.9,22.41385924
+SLC5A11,skeletal,Tissue RNA - basal ganglia [NX],21.8,21.31385924
+SLC5A11,skeletal,Tissue RNA - small intestine [NX],21.8,21.31385924
+SLC5A11,skeletal,Tissue RNA - pons and medulla [NX],18.3,17.81385924
+SLC5A11,skeletal,Tissue RNA - hippocampal formation [NX],12.1,11.61385924
+SLC5A11,skeletal,Tissue RNA - cerebral cortex [NX],11.2,10.71385924
+SLC5A11,skeletal,Tissue RNA - duodenum [NX],10.9,10.41385924
+SLC6A5,skeletal,Tissue RNA - pons and medulla [NX],21.3,21.06295839
+SLC6A5,skeletal,Tissue RNA - spinal cord [NX],6,5.762958391
+SLC6A5,skeletal,Tissue RNA - lung [NX],5.1,4.862958391
+SLC6A5,skeletal,Tissue RNA - cerebellum [NX],3.3,3.062958391
+SLC6A5,skeletal,Tissue RNA - pituitary gland [NX],2.2,1.962958391
+SLC6A5,skeletal,Tissue RNA - testis [NX],1.8,1.562958391
+SLC6A5,skeletal,Tissue RNA - cerebral cortex [NX],0.4,0.162958391
+SLC6A5,skeletal,Tissue RNA - hippocampal formation [NX],0.3,0.062958391
+SLC6A5,skeletal,Tissue RNA - heart muscle [NX],0.2,-0.037041609
+SLC6A5,skeletal,Tissue RNA - thymus [NX],0.2,-0.037041609
+SLC6A5,skeletal,Tissue RNA - tonsil [NX],0.2,-0.037041609
+SLC6A6,skeletal,Tissue RNA - retina [NX],76.4,75.32607076
+SLC6A6,skeletal,Tissue RNA - bone marrow [NX],46.4,45.32607076
+SLC6A6,skeletal,Tissue RNA - granulocytes [NX],33.2,32.12607076
+SLC6A6,skeletal,Tissue RNA - ovary [NX],31.3,30.22607076
+SLC6A6,skeletal,Tissue RNA - skeletal muscle [NX],26.6,25.52607076
+SLC6A6,skeletal,Tissue RNA - adrenal gland [NX],25.9,24.82607076
+SLC6A6,skeletal,Tissue RNA - heart muscle [NX],23.2,22.12607076
+SLC6A6,skeletal,Tissue RNA - small intestine [NX],22.2,21.12607076
+SLC6A6,skeletal,Tissue RNA - spleen [NX],20.3,19.22607076
+SLC6A6,skeletal,Tissue RNA - lung [NX],18.6,17.52607076
+SLC7A5,germline,Tissue RNA - bone marrow [NX],71.2,70.17358444
+SLC7A5,germline,Tissue RNA - cerebral cortex [NX],45.8,44.77358444
+SLC7A5,germline,Tissue RNA - esophagus [NX],38.7,37.67358444
+SLC7A5,germline,Tissue RNA - retina [NX],34.9,33.87358444
+SLC7A5,germline,Tissue RNA - testis [NX],34.9,33.87358444
+SLC7A5,germline,Tissue RNA - epididymis [NX],30.4,29.37358444
+SLC7A5,germline,Tissue RNA - placenta [NX],28.4,27.37358444
+SLC7A5,germline,Tissue RNA - basal ganglia [NX],24.5,23.47358444
+SLC7A5,germline,Tissue RNA - midbrain [NX],23.9,22.87358444
+SLC7A5,germline,Tissue RNA - pons and medulla [NX],23.4,22.37358444
+SLC7A9,germline,Tissue RNA - small intestine [NX],63.3,63.03474379
+SLC7A9,germline,Tissue RNA - duodenum [NX],30.5,30.23474379
+SLC7A9,germline,Tissue RNA - kidney [NX],26.4,26.13474379
+SLC7A9,germline,Tissue RNA - colon [NX],20.1,19.83474379
+SLC7A9,germline,Tissue RNA - liver [NX],11,10.73474379
+SLC7A9,germline,Tissue RNA - epididymis [NX],1.1,0.834743791
+SLC7A9,germline,Tissue RNA - appendix [NX],0.3,0.034743791
+SLC7A9,germline,Tissue RNA - cerebellum [NX],0.3,0.034743791
+SLC7A9,germline,Tissue RNA - pituitary gland [NX],0.3,0.034743791
+SLC7A9,germline,Tissue RNA - prostate [NX],0.3,0.034743791
+SLC7A9,germline,Tissue RNA - thyroid gland [NX],0.3,0.034743791
+SLC9A8,germline,Tissue RNA - bone marrow [NX],29.8,27.72814843
+SLC9A8,pigment,Tissue RNA - bone marrow [NX],29.8,27.72814843
+SLC9A8,germline,Tissue RNA - testis [NX],19.6,17.52814843
+SLC9A8,pigment,Tissue RNA - testis [NX],19.6,17.52814843
+SLC9A8,germline,Tissue RNA - skeletal muscle [NX],19.5,17.42814843
+SLC9A8,pigment,Tissue RNA - skeletal muscle [NX],19.5,17.42814843
+SLC9A8,germline,Tissue RNA - tonsil [NX],18.6,16.52814843
+SLC9A8,pigment,Tissue RNA - tonsil [NX],18.6,16.52814843
+SLC9A8,germline,Tissue RNA - liver [NX],16.2,14.12814843
+SLC9A8,pigment,Tissue RNA - liver [NX],16.2,14.12814843
